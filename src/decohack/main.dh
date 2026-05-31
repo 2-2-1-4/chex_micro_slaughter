@@ -1,0 +1,32 @@
+/*****************************************************************************
+ * DECOHack Patch File
+ * Main
+ ****************************************************************************/
+
+#include <mbf21>
+#include <friendly>
+
+// Your DECOHack code here ...
+thing 4 "commonus aggro"
+{
+	EdNum 3004
+	Health 5
+	Speed 24
+	PainChance 5
+	Mass 100
+
+	+DROPOFF
+
+	//$Angled
+	//$Category Monsters
+	//$Sprite POSSA0
+
+	States
+	{
+	Melee:
+		POSS E 10 A_FaceTarget
+		POSS F 6 A_BruisAttack
+		POSS E 8
+		Goto See
+	}	
+}

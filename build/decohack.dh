@@ -1,0 +1,16 @@
+/*****************************************************************************
+ * DECOHack Patch File
+ * Main
+ ****************************************************************************/
+
+#include <mbf21>
+#include <friendly>
+
+// Your DECOHack code here ...
+auto thing commonus_agro : thing 4 "commonus aggro"
+{
+	health 10
+	speed 21
+}
+
+

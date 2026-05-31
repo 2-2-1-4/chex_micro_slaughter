@@ -1,0 +1,582 @@
+// This DECORATE file serves to change effects that only make sense in Doom in
+// ZDoom, as well as to fix obituaries and conflicts with the stealth monsters.
+
+ACTOR VanillaChexPlayer : DoomPlayer
+{
+	player.displayname "Chex Warrior"
+	player.crouchsprite ""
+	player.damagescreencolor "60 b0 58"
+	Player.Colorset 0, "Blue",			0xC4, 0xCF,  0xC2
+	Player.Colorset 1, "Green",			0x70, 0x7F,  0x72
+	Player.Colorset 2, "Gray",			0x60, 0x6F,  0x62
+	Player.Colorset 3, "Brown",			0x40, 0x4F,  0x42
+	Player.Colorset 4, "Red",			0x20, 0x2F,  0x22
+	Player.Colorset 5, "Light Gray",	0x58, 0x67,  0x5A
+	Player.Colorset 6, "Light Brown",	0x38, 0x47,  0x3A
+	Player.Colorset 7, "Light Red",		0xB0, 0xBF,  0xB2
+}
+
+ACTOR VanillaCycloptis : Spectre replaces Spectre
+{
+	SpawnID 9
+	Health 150
+	PainChance 180
+	Speed 10
+	Radius 30
+	Height 56
+	Mass 400
+	+DONTGIB
+	-SHADOW
+	RenderStyle Normal
+	Alpha 1.0
+	States
+	{
+	Spawn:
+		CYCL AB 10 A_Look
+		Loop
+	See:
+	Raise:
+		CYCL AABBCCDD 2 FAST A_Chase
+		Loop
+	Melee:
+		CYCL EF 8 FAST A_FaceTarget
+		CYCL G 8 FAST A_SargAttack
+		Goto See
+	Pain:
+		CYCL H 2 BRIGHT
+		CYCL H 2 BRIGHT A_Pain
+		Goto See
+	Death:
+		CYCL I 8 BRIGHT
+		CYCL J 8 BRIGHT A_Scream
+		CYCL K 4 BRIGHT
+		CYCL L 4 BRIGHT A_NoBlocking
+		CYCL M 4 BRIGHT
+		TNT1 A -1
+		Stop
+	}
+}
+
+ACTOR VanillaLarva : Arachnotron replaces Arachnotron
+{
+	SpawnID 117
+	Health 100
+	PainChance 180
+	Speed 7
+	Radius 30
+	Height 56
+	Mass 400
+	+DONTGIB
+	SeeSound "spectre/sight"
+	AttackSound "spectre/melee"
+	PainSound "spectre/pain"
+	DeathSound "spectre/death"
+	ActiveSound "spectre/active"
+	States
+	{
+	Spawn:
+		LRVA AB 10 A_Look
+		Loop
+	See:
+	Raise:
+		LRVA AABBAABB 2 FAST A_Chase
+		Loop
+	Missile:
+		Stop
+	Melee:
+		LRVA CD 8 FAST A_FaceTarget
+		LRVA E 8 FAST A_SargAttack
+		Goto See
+	Pain:
+		LRVA F 2 BRIGHT
+		LRVA F 2 BRIGHT A_Pain
+		Goto See
+	Death:
+		LRVA G 8 BRIGHT
+		LRVA H 8 BRIGHT A_Scream
+		LRVA I 4 BRIGHT
+		LRVA J 4 BRIGHT A_NoBlocking
+		LRVA K 4 BRIGHT
+		TNT1 A -1
+		Stop
+	}
+}
+
+ACTOR VanillaLarva2 : VanillaLarva replaces StealthArachnotron {}
+
+ACTOR VanillaQuadrumpus : Fatso replaces Fatso
+{
+	SpawnID 122
+	Health 60
+	Radius 20
+	Height 56
+	Mass 100
+	Speed 8
+	PainChance 200
+	+DONTGIB
+	SeeSound "imp/sight"
+	PainSound "imp/pain"
+	DeathSound "imp/death"
+	ActiveSound "imp/active"
+	States
+	{
+	Spawn:
+		QUAD AB 10 A_Look
+		Loop
+	See:
+	Raise:
+		QUAD AABBCCDD 3 A_Chase
+		Loop
+	Melee:
+	Missile:
+		QUAD EF 8 A_FaceTarget
+		QUAD G 6 A_TroopAttack
+		Goto See
+	Pain:
+		QUAD H 2
+		QUAD H 2 A_Pain
+		Goto See
+	Death:
+		QUAD I 8 BRIGHT
+		QUAD J 8 BRIGHT A_Scream
+		QUAD K 6 BRIGHT
+		QUAD L 6 BRIGHT A_NoBlocking
+		TNT1 A -1
+		Stop
+	XDeath:
+		QUAD N 5 BRIGHT
+		QUAD O 5 BRIGHT A_XScream
+		QUAD P 5 BRIGHT
+		QUAD Q 5 BRIGHT A_NoBlocking
+		QUAD RST 5 BRIGHT
+		TNT1 A -1
+		Stop
+	}
+}
+
+ACTOR VanillaQuadrumpus2 : VanillaQuadrumpus replaces StealthDoomImp {}
+
+ACTOR VanillaFlemMine : LostSoul replaces LostSoul
+{
+	RenderStyle Normal
+	SeeSound "misc/unused"
+	AttackSound "skull/melee"
+	PainSound "misc/unused"
+	DeathSound "cyber/death"
+	ActiveSound "skeleton/active"
+}
+
+ACTOR VanillaPropulsorMissile : Rocket replaces Rocket
+{
+	-ROCKETTRAIL
+	RenderStyle Normal
+	Alpha 1.0
+	Decal ""
+}
+
+ACTOR VanillaPhasingMissile : PlasmaBall replaces PlasmaBall
+{
+	RenderStyle Translucent
+	Alpha 0.75
+	Decal ""
+}
+
+ACTOR VanillaLAZBall : BFGBall replaces BFGBall
+{
+	RenderStyle Translucent
+	Alpha 0.75
+	Decal ""
+}
+
+ACTOR VanillaBipedicusBall : DoomImpBall replaces DoomImpBall
+{
+	RenderStyle Normal
+	DeathSound "wolfss/sight"
+	Decal ""
+	States
+	{
+	Spawn:
+		BAL1 AB 4
+		Loop
+	Death:
+		BAL1 CDE 6
+		Stop
+	}
+}
+
+ACTOR VanillaCycloptisBall : CacodemonBall replaces CacodemonBall
+{
+	RenderStyle Normal
+	DeathSound "wolfss/death"
+	Decal ""
+	States
+	{
+	Spawn:
+		BAL2 AB 4
+		Loop
+	Death:
+		BAL2 CDE 6
+		Stop
+	}
+}
+
+ACTOR VanillaMaximusBall : BaronBall replaces BaronBall
+{
+	RenderStyle Normal
+	DeathSound "wolfss/death"
+	Decal ""
+	States
+	{
+	Spawn:
+		BAL7 AB 4
+		Loop
+	Death:
+		BAL7 CDE 6
+		Stop
+	}
+}
+
+ACTOR VanillaStatueDavid replaces StealthArchvile // 9051
+{
+	Radius 20
+	Height 64
+	+SOLID
+	States
+	{
+	Spawn:
+		STTU A -1
+		Stop
+	}
+}
+
+ACTOR VanillaStatueThinker replaces StealthBaron // 9052
+{
+	Radius 20
+	Height 64
+	+SOLID
+	States
+	{
+	Spawn:
+		STTU B -1
+		Stop
+	}
+}
+
+ACTOR VanillaStatueRamses replaces StealthCacodemon // 9053
+{
+	Radius 20
+	Height 64
+	+SOLID
+	States
+	{
+	Spawn:
+		STTU C -1
+		Stop
+	}
+}
+
+ACTOR VanillaStatueKingTut replaces StealthChaingunGuy // 9054
+{
+	Radius 20
+	Height 64
+	+SOLID
+	States
+	{
+	Spawn:
+		STTU D -1
+		Stop
+	}
+}
+
+ACTOR VanillaStatueChexWarrior replaces StealthDemon // 9055
+{
+	Radius 20
+	Height 64
+	+SOLID
+	States
+	{
+	Spawn:
+		STTU E -1
+		Stop
+	}
+}
+
+ACTOR VanillaStatueSpoon replaces StealthHellKnight // 9056
+{
+	Radius 60
+	Height 64
+	+SOLID
+	States
+	{
+	Spawn:
+		STTU F -1
+		Stop
+	}
+}
+
+ACTOR VanillaTreeBanana replaces StealthFatso // 9058
+{
+	Radius 20
+	Height 64
+	+SOLID
+	States
+	{
+	Spawn:
+		TRE3 A -1
+		Stop
+	}
+}
+
+ACTOR VanillaTreeBeech replaces StealthRevenant // 9059
+{
+	Radius 20
+	Height 64
+	+SOLID
+	States
+	{
+	Spawn:
+		TRE4 A -1
+		Stop
+	}
+}
+
+ACTOR VanillaTreeApple replaces StealthShotgunGuy // 9060
+{
+	Radius 20
+	Height 64
+	+SOLID
+	States
+	{
+	Spawn:
+		TRE5 A -1
+		Stop
+	}
+}
+
+ACTOR VanillaTreeOrange replaces StealthZombieMan // 9061
+{
+	Radius 20
+	Height 64
+	+SOLID
+	States
+	{
+	Spawn:
+		TRE6 A -1
+		Stop
+	}
+}
+
+ACTOR VanillaPropSlimeyUrn replaces TechLamp2
+{
+	Radius 16
+	Height 83
+	+SOLID
+	States
+	{
+	Spawn:
+		TLP2 ABCD 6
+		Loop
+	}
+}
+
+ACTOR VanillaPropHydroponicPlant replaces Meat2
+{
+	Radius 16
+	Height 45
+	+SOLID
+	+NOGRAVITY
+	States
+	{
+	Spawn:
+		GOR6 A -1
+		Stop
+	}
+}
+
+ACTOR VanillaPropBigBowl replaces Meat3
+{
+	Radius 40
+	Height 64
+	+SOLID
+	States
+	{
+	Spawn:
+		BOWL A -1
+		Stop
+	}
+}
+
+ACTOR VanillaPropCaptive3 replaces Meat4
+{
+	Radius 16
+	Height 65
+	+SOLID
+	States
+	{
+	Spawn:
+		POL7 AB 6
+		Loop
+	}
+}
+
+ACTOR VanillaPropBazoikCart replaces Meat5 
+{
+	Radius 16
+	Height 64
+	+SOLID
+	States
+	{
+	Spawn:
+		COL7 A -1
+		Stop
+	}
+}
+
+ACTOR VanillaPropHangingPlant2 replaces NonsolidMeat3
+{
+	Radius 20
+	Height 64
+	+SPAWNCEILING
+	+NOGRAVITY
+	States
+	{
+	Spawn:
+		GOR3 A -1
+		Stop
+	}
+}
+
+actor VanillaPropModelRocket replaces DeadZombieMan
+{
+	Radius 20
+	Height 106
+	+SOLID
+	States
+	{
+	Spawn:
+		MROC A -1
+		Stop
+	}
+}
+
+actor VanillaPropRadarDish replaces DeadShotgunGuy
+{
+	Radius 20
+	Height 121
+	+SOLID
+	States
+	{
+	Spawn:
+		RADA A -1
+		Stop
+	}
+}
+
+ACTOR VanillaPropDinosaur2 replaces HangTLookingUp
+{
+	Radius 60
+	Height 120
+	+SOLID
+	States
+	{
+	Spawn:
+		DINO B -1
+		Stop
+	}
+}
+
+ACTOR VanillaPropDinosaur1 replaces HangTSkull
+{
+	Radius 60
+	Height 120
+	+SOLID
+	States
+	{
+	Spawn:
+		DINO A -1
+		Stop
+	}
+}
+
+ACTOR VanillaPropFlower1 replaces HangTNoBrain
+{
+	Radius 16
+	Height 64
+	States
+	{
+	Spawn:
+		FLW1 A -1
+		Stop
+	}
+}
+
+ACTOR VanillaPropFlower2 replaces ColonGibs
+{
+	Radius 16
+	Height 64
+	States
+	{
+	Spawn:
+		FLW2 A -1
+		Stop
+	}
+}
+
+ACTOR VanillaChexDinerChef replaces DeadLostSoul
+{
+	Radius 20
+	Height 64
+	Mass 500
+	+SOLID
+	States
+	{
+	Spawn:
+		CHEF A -1
+		Stop
+	}
+}
+
+ACTOR VanillaChexDinerTable replaces DeadCacodemon
+{
+	Radius 20
+	Height 64
+	Mass 500
+	+SOLID
+	States
+	{
+	Spawn:
+		DINE A -1
+		Stop
+	}
+}
+
+ACTOR VanillaExploder replaces GibbedMarineExtra
+{
+	+NOBLOCKMAP
+	+NOSECTOR
+	States
+	{
+	Spawn:
+		TNT1 A 70 A_Explode
+		Loop
+	}
+}
+
+ACTOR VanillaStatueDavid2 : VanillaStatueDavid replaces ArchvileFire {}
+ACTOR VanillaStatueThinker2 : VanillaStatueThinker replaces RevenantTracer {}
+ACTOR VanillaStatueRamses2 : VanillaStatueRamses replaces RevenantTracerSmoke {}
+ACTOR VanillaStatueKingTut2 : VanillaStatueKingTut replaces FatShot {}
+ACTOR VanillaStatueChexWarrior2 : VanillaStatueChexWarrior replaces PainElemental {}
+ACTOR VanillaStatueSpoon2 : VanillaStatueSpoon replaces WolfensteinSS {}
+ACTOR VanillaTreeBanana2 : VanillaTreeBanana replaces CommanderKeen {}
+ACTOR VanillaTreeBeech2 : VanillaTreeBeech replaces BossBrain {}
+ACTOR VanillaTreeApple2 : VanillaTreeApple replaces BossEye {}
+ACTOR VanillaTreeOrange2 : VanillaTreeOrange replaces BossTarget {}
+
+// Needed to fix a weapon selection issue in Zandronum caused by the DeHackEd
+// changes.
+ACTOR VanillaSLZ : SuperShotgun replaces SuperShotgun
+{
+	Weapon.SelectionOrder 400
+	Weapon.SlotNumber 3
+}

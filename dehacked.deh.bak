@@ -1,0 +1,29 @@
+Patch File for DeHackEd v3.0
+# Created with DECOHack v0.47.2 by Matt Tropiano
+# Note: Use the pound sign ('#') to start comment lines.
+
+Doom version = 21
+Patch format = 6
+
+
+Thing 151 (commonus aggro)
+ID # = 64
+Hit points = 5
+Speed = 21
+Width = 1310720
+Height = 3670016
+Reaction time = 8
+Pain chance = 5
+Bits = 4194310
+Mass = 500
+Initial frame = 241
+First moving frame = 243
+Injury frame = 269
+Far attack frame = 255
+Death frame = 271
+Alert sound = 48
+Action sound = 80
+Pain sound = 28
+Death sound = 71
+MBF21 Bits = 134
+

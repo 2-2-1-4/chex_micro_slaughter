@@ -1,0 +1,27 @@
+#include <mbf21>
+#include <friendly>
+
+thing 14 "Flemoptis"
+{
+	EdNum 58
+	Health 75
+	PainChance 200
+
+	+FLOAT
+	+NOGRAVITY
+
+	//$Angled
+	//$Category Monsters
+	//$Sprite CYCLA0
+
+	States
+	{
+	Melee:
+	Missile:
+		CYCL E 8 A_FaceTarget
+		CYCL F 6 A_FaceTarget
+		CYCL G 8 A_SPosAttack
+		CYCL G 7 A_SPosAttack
+		Goto See
+	}
+}

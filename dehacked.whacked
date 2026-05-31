@@ -1,0 +1,71 @@
+{
+    "engine": "tables_extended",
+    "iwad": "F:\\chex3d2.wad",
+    "pwads": [],
+    "windows": {
+        "active": "things",
+        "things": {
+            "x": 0,
+            "y": 0,
+            "width": 640,
+            "height": 640,
+            "visible": 0
+        },
+        "states": {
+            "x": 29,
+            "y": 29,
+            "width": 1024,
+            "height": 768,
+            "visible": 0
+        },
+        "sounds": {
+            "x": 58,
+            "y": 58,
+            "width": 430,
+            "height": 480,
+            "visible": 0
+        },
+        "strings": {
+            "x": 87,
+            "y": 87,
+            "width": 640,
+            "height": 480,
+            "visible": 0
+        },
+        "weapons": {
+            "x": 116,
+            "y": 116,
+            "width": 560,
+            "height": 472,
+            "visible": 0
+        },
+        "ammo": {
+            "x": 145,
+            "y": 145,
+            "width": 520,
+            "height": 250,
+            "visible": 0
+        },
+        "cheats": {
+            "x": 0,
+            "y": 0,
+            "width": 340,
+            "height": 401,
+            "visible": 0
+        },
+        "misc": {
+            "x": 29,
+            "y": 29,
+            "width": 420,
+            "height": 450,
+            "visible": 0
+        },
+        "par": {
+            "x": 58,
+            "y": 58,
+            "width": 400,
+            "height": 380,
+            "visible": 0
+        }
+    }
+}
