@@ -9,6 +9,8 @@ thing 14 "Flemoptis"
 
 	+FLOAT
 	+NOGRAVITY
+	+INFLOAT
+	-SHADOW
 
 	//$Angled
 	//$Category Monsters
@@ -16,12 +18,32 @@ thing 14 "Flemoptis"
 
 	States
 	{
-	Melee:
+	Spawn:
+		CYCL AB 10 A_Look
+		Loop
+	See:
+		CYCL AABBCCDD 2 A_Chase
+		Loop
 	Missile:
-		CYCL E 8 A_FaceTarget
-		CYCL F 6 A_FaceTarget
-		CYCL G 8 A_SPosAttack
-		CYCL G 7 A_SPosAttack
+		CYCL EF 8 A_FaceTarget
+		CYCL G 8 A_HeadAttack
+		CYCL G 7 A_HeadAttack
+		Goto see
+	Pain:
+		CYCL H 2
+		CYCL H 2 A_Pain
 		Goto See
+	Death:
+		CYCL I 8
+		CYCL J 8 A_Scream
+		CYCL K 4
+		CYCL L 4 A_Fall
+		CYCL M 4
+		CYCL N -1
+		Stop
+	Raise:
+		CYCL N 5
+		CYCL MLKJI 5
+		Goto See	
 	}
 }

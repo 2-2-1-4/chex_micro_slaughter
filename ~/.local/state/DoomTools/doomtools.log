@@ -1,0 +1,100 @@
+[2026-05-31 22:47:43.664] (DoomToolsSettingsManager) WARNING: Could not load settings file from ~/.config/DoomTools/settings.properties
+[2026-05-31 22:47:44.058] (DoomToolsLanguageManager) INFO: Loaded language resource: gui/language/default.properties
+[2026-05-31 22:47:44.059] (DoomToolsLanguageManager) INFO: No language resource loaded: gui/language/default.linux.properties not found.
+[2026-05-31 22:47:44.059] (DoomToolsLanguageManager) INFO: No language resource loaded: gui/language/eng.properties not found.
+[2026-05-31 22:47:44.059] (DoomToolsLanguageManager) INFO: No language resource loaded: gui/language/eng.linux.properties not found.
+[2026-05-31 22:47:44.071] (DoomToolsImageManager) DEBUG: Loaded image: doomtools-logo-16.png
+[2026-05-31 22:47:44.072] (DoomToolsImageManager) DEBUG: Loaded image: doomtools-logo-32.png
+[2026-05-31 22:47:44.073] (DoomToolsImageManager) DEBUG: Loaded image: doomtools-logo-48.png
+[2026-05-31 22:47:44.075] (DoomToolsImageManager) DEBUG: Loaded image: doomtools-logo-64.png
+[2026-05-31 22:47:44.076] (DoomToolsImageManager) DEBUG: Loaded image: doomtools-logo-96.png
+[2026-05-31 22:47:44.078] (DoomToolsImageManager) DEBUG: Loaded image: doomtools-logo-128.png
+[2026-05-31 22:47:44.082] (DecoHackSettingsManager) WARNING: Could not load settings file from ~/.config/DoomTools/decohack.properties
+[2026-05-31 22:47:44.110] (EditorSettingsManager) WARNING: Could not load settings file from ~/.config/DoomTools/editor.properties
+[2026-05-31 22:47:44.249] (DoomToolsImageManager) DEBUG: Loaded image: success.png
+[2026-05-31 22:47:44.250] (DoomToolsIconManager) DEBUG: Loaded icon: activity.gif
+[2026-05-31 22:47:44.253] (DoomToolsImageManager) DEBUG: Loaded image: error.png
+[2026-05-31 22:47:44.282] (DoomToolsIconManager) DEBUG: Loaded icon: folder.png
+[2026-05-31 22:47:44.369] (DoomToolsIconManager) DEBUG: Loaded icon: script.png
+[2026-05-31 22:47:44.370] (DoomToolsIconManager) DEBUG: Loaded icon: script-unsaved.png
+[2026-05-31 22:47:44.372] (DoomToolsIconManager) DEBUG: Loaded icon: close-icon.png
+[2026-05-31 22:47:44.380] (DoomToolsEditorProvider) INFO: Fetch completion provider: text/decohack
+[2026-05-31 22:47:44.633] (DoomToolsEditorProvider) INFO: Done fetching completion provider: text/decohack
+[2026-05-31 22:47:56.363] (DoomToolsEditorProvider) INFO: Fetch completion provider: text/decohack
+[2026-05-31 22:47:56.363] (DoomToolsEditorProvider) INFO: Done fetching completion provider: text/decohack
+[2026-05-31 22:48:32.392] (EditorSettingsManager) INFO: Saved settings to ~/.config/DoomTools/editor.properties.
+[2026-05-31 22:48:32.393] (EditorSettingsManager) INFO: Saved settings to ~/.config/DoomTools/editor.properties.
+[2026-05-31 22:48:32.400] (EditorSettingsManager) INFO: Saved settings to ~/.config/DoomTools/editor.properties.
+[2026-05-31 22:48:32.400] (EditorSettingsManager) INFO: Saved settings to ~/.config/DoomTools/editor.properties.
+[2026-05-31 22:48:32.400] (EditorSettingsManager) INFO: Saved settings to ~/.config/DoomTools/editor.properties.
+[2026-05-31 22:48:36.136] (EditorSettingsManager) INFO: Saved settings to ~/.config/DoomTools/editor.properties.
+[2026-05-31 22:48:36.144] (EditorSettingsManager) INFO: Saved settings to ~/.config/DoomTools/editor.properties.
+[2026-05-31 22:48:36.145] (EditorSettingsManager) INFO: Saved settings to ~/.config/DoomTools/editor.properties.
+[2026-05-31 22:48:36.146] (EditorSettingsManager) INFO: Saved settings to ~/.config/DoomTools/editor.properties.
+[2026-05-31 22:48:36.147] (EditorSettingsManager) INFO: Saved settings to ~/.config/DoomTools/editor.properties.
+[2026-05-31 22:48:39.917] (EditorSettingsManager) INFO: Saved settings to ~/.config/DoomTools/editor.properties.
+[2026-05-31 22:48:39.924] (EditorSettingsManager) INFO: Saved settings to ~/.config/DoomTools/editor.properties.
+[2026-05-31 22:48:39.924] (EditorSettingsManager) INFO: Saved settings to ~/.config/DoomTools/editor.properties.
+[2026-05-31 22:48:39.925] (EditorSettingsManager) INFO: Saved settings to ~/.config/DoomTools/editor.properties.
+[2026-05-31 22:48:39.925] (EditorSettingsManager) INFO: Saved settings to ~/.config/DoomTools/editor.properties.
+[2026-05-31 22:49:43.394] (DecoHackSettingsManager) INFO: Saved settings to ~/.config/DoomTools/decohack.properties.
+[2026-05-31 22:50:13.697] (DecoHackSettingsManager) INFO: Saved settings to ~/.config/DoomTools/decohack.properties.
+[2026-05-31 22:50:20.832] (DoomToolsTaskManager) INFO: Started task.
+[2026-05-31 22:50:20.835] (AppCommon) INFO: Calling DECOHack (/home/william/doom/chex_micro_slaughter/src/decohack/tests/flemoptis.dh).
+[2026-05-31 22:50:20.836] (DoomToolsTaskManager) INFO: Started task.
+[2026-05-31 22:50:21.016] (DoomToolsTaskManager) INFO: Finished task.
+[2026-05-31 22:50:21.016] (DoomToolsTaskManager) INFO: Finished task.
+[2026-05-31 22:55:58.126] (DoomToolsTaskManager) INFO: Started task.
+[2026-05-31 22:55:58.126] (AppCommon) INFO: Calling DECOHack (/home/william/doom/chex_micro_slaughter/src/decohack/tests/flemoptis.dh).
+[2026-05-31 22:55:58.126] (DoomToolsTaskManager) INFO: Started task.
+[2026-05-31 22:55:58.256] (DoomToolsTaskManager) INFO: Finished task.
+[2026-05-31 22:55:58.257] (DoomToolsTaskManager) INFO: Finished task.
+[2026-05-31 23:18:00.640] (DoomToolsTaskManager) INFO: Started task.
+[2026-05-31 23:18:00.640] (AppCommon) INFO: Calling DECOHack (/home/william/doom/chex_micro_slaughter/src/decohack/tests/flemoptis.dh).
+[2026-05-31 23:18:00.640] (DoomToolsTaskManager) INFO: Started task.
+[2026-05-31 23:18:00.865] (DoomToolsTaskManager) INFO: Finished task.
+[2026-05-31 23:18:00.865] (DoomToolsTaskManager) INFO: Finished task.
+[2026-05-31 23:23:55.407] (DoomToolsTaskManager) INFO: Started task.
+[2026-05-31 23:23:55.407] (AppCommon) INFO: Calling DECOHack (/home/william/doom/chex_micro_slaughter/src/decohack/tests/flemoptis.dh).
+[2026-05-31 23:23:55.407] (DoomToolsTaskManager) INFO: Started task.
+[2026-05-31 23:23:55.527] (AppCommon) ERROR: DECOHack threw an error!
+[2026-05-31 23:23:55.527] (DoomToolsTaskManager) INFO: Finished task.
+[2026-05-31 23:23:55.528] (DoomToolsTaskManager) INFO: Finished task.
+[2026-05-31 23:24:58.584] (DoomToolsTaskManager) INFO: Started task.
+[2026-05-31 23:24:58.585] (AppCommon) INFO: Calling DECOHack (/home/william/doom/chex_micro_slaughter/src/decohack/tests/flemoptis.dh).
+[2026-05-31 23:24:58.585] (DoomToolsTaskManager) INFO: Started task.
+[2026-05-31 23:24:58.706] (AppCommon) ERROR: DECOHack threw an error!
+[2026-05-31 23:24:58.706] (DoomToolsTaskManager) INFO: Finished task.
+[2026-05-31 23:24:58.706] (DoomToolsTaskManager) INFO: Finished task.
+[2026-05-31 23:25:45.804] (DoomToolsTaskManager) INFO: Started task.
+[2026-05-31 23:25:45.805] (AppCommon) INFO: Calling DECOHack (/home/william/doom/chex_micro_slaughter/src/decohack/tests/flemoptis.dh).
+[2026-05-31 23:25:45.805] (DoomToolsTaskManager) INFO: Started task.
+[2026-05-31 23:25:46.043] (DoomToolsTaskManager) INFO: Finished task.
+[2026-05-31 23:25:46.043] (DoomToolsTaskManager) INFO: Finished task.
+[2026-05-31 23:28:44.804] (DoomToolsTaskManager) INFO: Started task.
+[2026-05-31 23:28:44.804] (AppCommon) INFO: Calling DECOHack (/home/william/doom/chex_micro_slaughter/src/decohack/tests/flemoptis.dh).
+[2026-05-31 23:28:44.805] (DoomToolsTaskManager) INFO: Started task.
+[2026-05-31 23:28:44.924] (AppCommon) ERROR: DECOHack threw an error!
+[2026-05-31 23:28:44.924] (DoomToolsTaskManager) INFO: Finished task.
+[2026-05-31 23:28:44.924] (DoomToolsTaskManager) INFO: Finished task.
+[2026-05-31 23:31:57.057] (DoomToolsTaskManager) INFO: Started task.
+[2026-05-31 23:31:57.057] (AppCommon) INFO: Calling DECOHack (/home/william/doom/chex_micro_slaughter/src/decohack/tests/flemoptis.dh).
+[2026-05-31 23:31:57.057] (DoomToolsTaskManager) INFO: Started task.
+[2026-05-31 23:31:57.199] (DoomToolsTaskManager) INFO: Finished task.
+[2026-05-31 23:31:57.199] (DoomToolsTaskManager) INFO: Finished task.
+[2026-05-31 23:40:15.852] (DoomToolsTaskManager) INFO: Started task.
+[2026-05-31 23:40:15.852] (AppCommon) INFO: Calling DECOHack (/home/william/doom/chex_micro_slaughter/src/decohack/tests/flemoptis.dh).
+[2026-05-31 23:40:15.852] (DoomToolsTaskManager) INFO: Started task.
+[2026-05-31 23:40:15.974] (AppCommon) ERROR: DECOHack threw an error!
+[2026-05-31 23:40:15.974] (DoomToolsTaskManager) INFO: Finished task.
+[2026-05-31 23:40:15.975] (DoomToolsTaskManager) INFO: Finished task.
+[2026-05-31 23:42:23.892] (DoomToolsTaskManager) INFO: Started task.
+[2026-05-31 23:42:23.893] (AppCommon) INFO: Calling DECOHack (/home/william/doom/chex_micro_slaughter/src/decohack/tests/flemoptis.dh).
+[2026-05-31 23:42:23.893] (DoomToolsTaskManager) INFO: Started task.
+[2026-05-31 23:42:24.111] (DoomToolsTaskManager) INFO: Finished task.
+[2026-05-31 23:42:24.111] (DoomToolsTaskManager) INFO: Finished task.
+[2026-05-31 23:47:37.461] (DoomToolsTaskManager) INFO: Started task.
+[2026-05-31 23:47:37.461] (AppCommon) INFO: Calling DECOHack (/home/william/doom/chex_micro_slaughter/src/decohack/tests/flemoptis.dh).
+[2026-05-31 23:47:37.462] (DoomToolsTaskManager) INFO: Started task.
+[2026-05-31 23:47:37.679] (DoomToolsTaskManager) INFO: Finished task.
+[2026-05-31 23:47:37.679] (DoomToolsTaskManager) INFO: Finished task.
