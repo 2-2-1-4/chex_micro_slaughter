@@ -1,0 +1,31 @@
+#include <dsdhacked>
+#include <friendly>
+
+Thing 7 : Thing RevenantTracer
+{
+   Radius 6
+   Height 8
+   Speed 11
+   FastSpeed 22
+   Damage 4
+   +MISSILE
+
+   SeeSound DSFIRS
+   DeathSound DSFIRX
+}
+
+Thing 8 : Thing RevenantTracerSmoke
+{
+}
+
+Thing 12
+{
+    states
+    {
+    Melee:
+    Missile:
+       TROO EF 8 A_FaceTarget
+       TROO G 6 A_SkelMissile
+       Goto See
+    }
+}       
