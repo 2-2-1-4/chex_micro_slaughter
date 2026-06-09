@@ -10,57 +10,131 @@ Thing 7 (Revenant fireball)
 Speed = 720896
 Width = 393216
 Missile damage = 4
+Bits = 83472
+Initial frame = 1100
+Death frame = 1102
 Alert sound = 700
 Death sound = 701
 Fast speed = 1441792
 
+Thing 8 (Fireball trail)
+Bits = -2147466736
+Initial frame = 1105
+
 Thing 12 (Imp)
-Close attack frame = 1100
-Far attack frame = 1103
+Close attack frame = 1110
+Far attack frame = 1114
 
 Frame 1100
-Sprite number = 0
-Sprite subnumber = 4
+Sprite number = 33
+Sprite subnumber = 32768
 Next frame = 1101
-Duration = 8
+Duration = 2
 
 Frame 1101
-Sprite number = 0
-Sprite subnumber = 5
-Next frame = 1102
-Duration = 8
+Sprite number = 33
+Sprite subnumber = 32769
+Next frame = 1100
+Duration = 2
 
 Frame 1102
-Sprite number = 0
-Sprite subnumber = 6
+Sprite number = 34
+Sprite subnumber = 32768
 Next frame = 1103
-Duration = 6
+Duration = 8
 
 Frame 1103
-Sprite number = 0
-Sprite subnumber = 4
+Sprite number = 34
+Sprite subnumber = 32769
 Next frame = 1104
-Duration = 8
+Duration = 6
 
 Frame 1104
-Sprite number = 0
-Sprite subnumber = 5
-Next frame = 1105
-Duration = 8
+Sprite number = 34
+Sprite subnumber = 32770
+Next frame = 0
+Duration = 4
 
 Frame 1105
+Sprite number = 17
+Next frame = 1106
+Duration = 4
+
+Frame 1106
+Sprite number = 17
+Sprite subnumber = 1
+Next frame = 1107
+Duration = 4
+
+Frame 1107
+Sprite number = 17
+Next frame = 1108
+Duration = 4
+
+Frame 1108
+Sprite number = 17
+Sprite subnumber = 1
+Next frame = 1109
+Duration = 4
+
+Frame 1109
+Sprite number = 17
+Sprite subnumber = 2
+Next frame = 0
+Duration = 4
+
+Frame 1110
+Sprite number = 0
+Sprite subnumber = 4
+Next frame = 1111
+Duration = 8
+
+Frame 1111
+Sprite number = 0
+Sprite subnumber = 5
+Next frame = 1112
+Duration = 8
+
+Frame 1112
+Sprite number = 0
+Sprite subnumber = 4
+Next frame = 1113
+Duration = 6
+
+Frame 1113
+Sprite number = 0
+Sprite subnumber = 5
+Next frame = 1114
+Duration = 6
+
+Frame 1114
+Sprite number = 0
+Sprite subnumber = 4
+Next frame = 1115
+Duration = 8
+
+Frame 1115
+Sprite number = 0
+Sprite subnumber = 5
+Next frame = 1116
+Duration = 8
+
+Frame 1116
 Sprite number = 0
 Sprite subnumber = 6
 Next frame = 444
 Duration = 6
 
 [CODEPTR]
-FRAME 1100 = FaceTarget
-FRAME 1101 = FaceTarget
-FRAME 1102 = TroopAttack
-FRAME 1103 = FaceTarget
-FRAME 1104 = FaceTarget
-FRAME 1105 = SkelMissile
+FRAME 1100 = Tracer
+FRAME 1101 = Tracer
+FRAME 1110 = FaceTarget
+FRAME 1111 = FaceTarget
+FRAME 1112 = SargAttack
+FRAME 1113 = SargAttack
+FRAME 1114 = FaceTarget
+FRAME 1115 = FaceTarget
+FRAME 1116 = SkelMissile
 
 [SOUNDS]
 700 = DSFIRS

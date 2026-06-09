@@ -1,7 +1,7 @@
 #include <dsdhacked>
 #include <friendly>
 
-Thing 7 : Thing RevenantTracer
+Thing 7 : Thing MTF_REVENANT_ROCKET
 {
    Radius 6
    Height 8
@@ -9,13 +9,39 @@ Thing 7 : Thing RevenantTracer
    FastSpeed 22
    Damage 4
    +MISSILE
+   +FLOAT
+   +NOGRAVITY
 
    SeeSound DSFIRS
    DeathSound DSFIRX
+
+   Clear States
+   States
+   {
+   Spawn:
+    FATB AB 2 Bright A_Tracer
+    Loop
+   Death:
+    FBXP A 8 Bright
+    FBXP B 6 Bright
+    FBXP C 4 Bright
+    Stop
+   }
 }
 
-Thing 8 : Thing RevenantTracerSmoke
+Thing 8 : Thing MTF_REVENANT_ROCKET_TRAIL
 {
+  +NOBLOCKMAP
+  +NOGRAVITY
+  +FLOAT
+  -TELEPORT
+  
+  States
+  {   
+  Spawn:
+    PUFF ABABC 4
+    Stop
+  }
 }
 
 Thing 12
@@ -23,6 +49,8 @@ Thing 12
     states
     {
     Melee:
+      TROO EF 8 A_FaceTarget
+      TROO EF 6 A_SargAttack
     Missile:
        TROO EF 8 A_FaceTarget
        TROO G 6 A_SkelMissile
