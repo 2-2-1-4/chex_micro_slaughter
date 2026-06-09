@@ -1,8 +1,10 @@
 #include <dsdhacked>
 #include <friendly>
 
-Thing 7 : Thing MTF_REVENANT_ROCKET
+Thing 151 : Thing MTF_REVENANT_ROCKET
 {
+   EdNum -1
+
    Radius 6
    Height 8
    Speed 11
@@ -19,12 +21,12 @@ Thing 7 : Thing MTF_REVENANT_ROCKET
    States
    {
    Spawn:
-    FATB AB 2 Bright A_Tracer
+    SP01 AB 2 Bright A_Tracer
     Loop
    Death:
-    FBXP A 8 Bright
-    FBXP B 6 Bright
-    FBXP C 4 Bright
+    SP02 A 8 Bright
+    SP02 B 6 Bright
+    SP02 C 4 Bright
     Stop
    }
 }
@@ -53,7 +55,7 @@ Thing 12
       TROO EF 6 A_SargAttack
     Missile:
        TROO EF 8 A_FaceTarget
-       TROO G 6 A_SkelMissile
+       TROO G 6 A_MonsterProjectile(151, 0, 0, 0, 0)
        Goto See
     }
 }       

@@ -6,17 +6,6 @@ Doom version = 2021
 Patch format = 6
 
 
-Thing 7 (Revenant fireball)
-Speed = 720896
-Width = 393216
-Missile damage = 4
-Bits = 83472
-Initial frame = 1100
-Death frame = 1102
-Alert sound = 700
-Death sound = 701
-Fast speed = 1441792
-
 Thing 8 (Fireball trail)
 Bits = -2147466736
 Initial frame = 1105
@@ -25,32 +14,47 @@ Thing 12 (Imp)
 Close attack frame = 1110
 Far attack frame = 1114
 
+Thing 151 (Revenant fireball)
+Hit points = 1000
+Speed = 720896
+Width = 393216
+Height = 524288
+Missile damage = 4
+Reaction time = 8
+Bits = 83472
+Mass = 100
+Initial frame = 1100
+Death frame = 1102
+Alert sound = 700
+Death sound = 701
+Fast speed = 1441792
+
 Frame 1100
-Sprite number = 33
+Sprite number = 146
 Sprite subnumber = 32768
 Next frame = 1101
 Duration = 2
 
 Frame 1101
-Sprite number = 33
+Sprite number = 146
 Sprite subnumber = 32769
 Next frame = 1100
 Duration = 2
 
 Frame 1102
-Sprite number = 34
+Sprite number = 147
 Sprite subnumber = 32768
 Next frame = 1103
 Duration = 8
 
 Frame 1103
-Sprite number = 34
+Sprite number = 147
 Sprite subnumber = 32769
 Next frame = 1104
 Duration = 6
 
 Frame 1104
-Sprite number = 34
+Sprite number = 147
 Sprite subnumber = 32770
 Next frame = 0
 Duration = 4
@@ -124,6 +128,11 @@ Sprite number = 0
 Sprite subnumber = 6
 Next frame = 444
 Duration = 6
+Args1 = 151
+Args2 = 0
+Args3 = 0
+Args4 = 0
+Args5 = 0
 
 [CODEPTR]
 FRAME 1100 = Tracer
@@ -134,7 +143,7 @@ FRAME 1112 = SargAttack
 FRAME 1113 = SargAttack
 FRAME 1114 = FaceTarget
 FRAME 1115 = FaceTarget
-FRAME 1116 = SkelMissile
+FRAME 1116 = MonsterProjectile
 
 [SOUNDS]
 700 = DSFIRS
