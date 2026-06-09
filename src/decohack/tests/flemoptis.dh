@@ -28,7 +28,7 @@ thing 14 "Flemoptis"
 		CYCL EF 8 A_FaceTarget
 		CYCL G 8 A_HeadAttack
 		CYCL G 7 A_HeadAttack
-		Goto see
+		Goto See
 	Pain:
 		CYCL H 2
 		CYCL H 2 A_Pain
