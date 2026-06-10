@@ -16,7 +16,8 @@ thing 4 "commonus aggro"
 	Mass 100
 
 	+DROPOFF
-
+	+NOGRAVITY
+	
 	//$Angled
 	//$Category Monsters
 	//$Sprite POSSA0

@@ -1,8 +1,8 @@
 Patch File for DeHackEd v3.0
-# Created with DECOHack v0.47.2 by Matt Tropiano
+# Created with DECOHack v0.48.0 by Matt Tropiano
 # Note: Use the pound sign ('#') to start comment lines.
 
-Doom version = 21
+Doom version = 2021
 Patch format = 6
 
 
@@ -14,7 +14,7 @@ ID # = 3004
 Hit points = 5
 Speed = 24
 Pain chance = 5
-Bits = 4195334
+Bits = 4195846
 Mass = 100
 Close attack frame = 1100
 
