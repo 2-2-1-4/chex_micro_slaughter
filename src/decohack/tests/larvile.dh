@@ -12,7 +12,7 @@ Thing 21
 		LRVA AB 10 A_Look
 		Loop
 	See:
-		LRVA AABBAABB 2 A_VileChase
+		LRVA AABBAABB 2 A_Chase
 		Loop
 	Melee:
 		LRVA CD 8 A_FaceTarget
