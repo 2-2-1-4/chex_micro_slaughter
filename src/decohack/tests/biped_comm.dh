@@ -1,0 +1,44 @@
+#include <dsdhacked>
+#include <friendly>
+
+Thing 6
+{
+	Clear States
+	States
+	{
+	Spawn:
+		SPOS AB 9 A_Look
+		Loop
+	See:
+		SPOS AABBCCDD 3 A_Chase
+		Loop
+	Melee:
+	Missile:
+		SPOS E 9 A_FaceTarget
+		SPOS F 7 A_TroopAttack
+		SPOS E 9
+		Goto See
+	Pain:
+		SPOS G 3
+		SPOS G 3 A_Pain
+		Goto See
+	Death:
+		SPOS H 5
+		SPOS I 5 A_Scream
+		SPOS J 5 A_Fall
+		SPOS K 5
+		SPOS L -1
+		Stop
+	XDeath:
+		SPOS M 5
+		SPOS N 5 A_XScream
+		SPOS O 5 A_Fall
+		SPOS PQRST 5
+		SPOS U -1
+		Stop
+	Raise:
+		SPOS L 5
+		SPOS KJIH 5
+		Goto See
+	}
+}

@@ -25,8 +25,8 @@ Bits = 83472
 Mass = 100
 Initial frame = 1100
 Death frame = 1102
-Alert sound = 700
-Death sound = 701
+Alert sound = 16
+Death sound = 17
 Fast speed = 1441792
 
 Frame 1100
@@ -144,8 +144,4 @@ FRAME 1113 = SargAttack
 FRAME 1114 = FaceTarget
 FRAME 1115 = FaceTarget
 FRAME 1116 = MonsterProjectile
-
-[SOUNDS]
-700 = DSFIRS
-701 = DSFIRX
 

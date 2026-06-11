@@ -1,0 +1,38 @@
+#include <dsdhacked>
+#include <friendly>
+
+Thing 21
+{
+	+SHADOW
+
+	Clear States
+	States
+	{
+	Spawn:
+		LRVA AB 10 A_Look
+		Loop
+	See:
+		LRVA AABBAABB 2 A_VileChase
+		Loop
+	Melee:
+		LRVA CD 8 A_FaceTarget
+		LRVA E 8 A_VileAttack
+		Goto See
+	Pain:
+		LRVA F 2
+		LRVA F 2 A_Pain
+		Goto See
+	Death:
+		LRVA G 8
+		LRVA H 8 A_Scream
+		LRVA I 4
+		LRVA J 4 A_Fall
+		LRVA K 4
+		LRVA L -1
+		Stop
+	Raise:
+		LRVA L 5
+		LRVA KJIHG 5
+		Goto See
+	}
+}

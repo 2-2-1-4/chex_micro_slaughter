@@ -14,8 +14,8 @@ Thing 151 : Thing MTF_REVENANT_ROCKET
    +FLOAT
    +NOGRAVITY
 
-   SeeSound DSFIRS
-   DeathSound DSFIRX
+   SeeSound "FIRSHT"
+   DeathSound "FIRXPL"
 
    Clear States
    States

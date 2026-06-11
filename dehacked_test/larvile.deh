@@ -1,0 +1,195 @@
+Patch File for DeHackEd v3.0
+# Created with DECOHack v0.48.0 by Matt Tropiano
+# Note: Use the pound sign ('#') to start comment lines.
+
+Doom version = 2021
+Patch format = 6
+
+
+Thing 21 (Arachnotron)
+Bits = 4456454
+Initial frame = 1100
+First moving frame = 1102
+Injury frame = 1113
+Close attack frame = 1110
+Far attack frame = 0
+Death frame = 1115
+Respawn frame = 1121
+
+Frame 1100
+Sprite number = 245
+Next frame = 1101
+Duration = 10
+
+Frame 1101
+Sprite number = 245
+Sprite subnumber = 1
+Next frame = 1100
+Duration = 10
+
+Frame 1102
+Sprite number = 245
+Next frame = 1103
+Duration = 2
+
+Frame 1103
+Sprite number = 245
+Next frame = 1104
+Duration = 2
+
+Frame 1104
+Sprite number = 245
+Sprite subnumber = 1
+Next frame = 1105
+Duration = 2
+
+Frame 1105
+Sprite number = 245
+Sprite subnumber = 1
+Next frame = 1106
+Duration = 2
+
+Frame 1106
+Sprite number = 245
+Next frame = 1107
+Duration = 2
+
+Frame 1107
+Sprite number = 245
+Next frame = 1108
+Duration = 2
+
+Frame 1108
+Sprite number = 245
+Sprite subnumber = 1
+Next frame = 1109
+Duration = 2
+
+Frame 1109
+Sprite number = 245
+Sprite subnumber = 1
+Next frame = 1102
+Duration = 2
+
+Frame 1110
+Sprite number = 245
+Sprite subnumber = 2
+Next frame = 1111
+Duration = 8
+
+Frame 1111
+Sprite number = 245
+Sprite subnumber = 3
+Next frame = 1112
+Duration = 8
+
+Frame 1112
+Sprite number = 245
+Sprite subnumber = 4
+Next frame = 1102
+Duration = 8
+
+Frame 1113
+Sprite number = 245
+Sprite subnumber = 5
+Next frame = 1114
+Duration = 2
+
+Frame 1114
+Sprite number = 245
+Sprite subnumber = 5
+Next frame = 1102
+Duration = 2
+
+Frame 1115
+Sprite number = 245
+Sprite subnumber = 6
+Next frame = 1116
+Duration = 8
+
+Frame 1116
+Sprite number = 245
+Sprite subnumber = 7
+Next frame = 1117
+Duration = 8
+
+Frame 1117
+Sprite number = 245
+Sprite subnumber = 8
+Next frame = 1118
+Duration = 4
+
+Frame 1118
+Sprite number = 245
+Sprite subnumber = 9
+Next frame = 1119
+Duration = 4
+
+Frame 1119
+Sprite number = 245
+Sprite subnumber = 10
+Next frame = 1120
+Duration = 4
+
+Frame 1120
+Sprite number = 245
+Sprite subnumber = 11
+Next frame = 0
+
+Frame 1121
+Sprite number = 245
+Sprite subnumber = 11
+Next frame = 1122
+Duration = 5
+
+Frame 1122
+Sprite number = 245
+Sprite subnumber = 10
+Next frame = 1123
+Duration = 5
+
+Frame 1123
+Sprite number = 245
+Sprite subnumber = 9
+Next frame = 1124
+Duration = 5
+
+Frame 1124
+Sprite number = 245
+Sprite subnumber = 8
+Next frame = 1125
+Duration = 5
+
+Frame 1125
+Sprite number = 245
+Sprite subnumber = 7
+Next frame = 1126
+Duration = 5
+
+Frame 1126
+Sprite number = 245
+Sprite subnumber = 6
+Next frame = 1102
+Duration = 5
+
+[CODEPTR]
+FRAME 1100 = Look
+FRAME 1101 = Look
+FRAME 1102 = VileChase
+FRAME 1103 = VileChase
+FRAME 1104 = VileChase
+FRAME 1105 = VileChase
+FRAME 1106 = VileChase
+FRAME 1107 = VileChase
+FRAME 1108 = VileChase
+FRAME 1109 = VileChase
+FRAME 1110 = FaceTarget
+FRAME 1111 = FaceTarget
+FRAME 1112 = VileAttack
+FRAME 1114 = Pain
+FRAME 1116 = Scream
+FRAME 1118 = Fall
+
+[SPRITES]
+245 = LRVA
+
