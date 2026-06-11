@@ -8,6 +8,8 @@ This is a repository containing a work in progress mapset using [chex3d2.wad](ht
 
 You are more than welcome to use any decohack or dehacked files in here as long as I am credited. I do recommend you wait till a full release is available as this is the very beginnings.
 
+You can check out some test maps for dehacked changes with more in depth explanations at https://youtube.com/playlist?list=PLdzCbZBPQtwYAngr1qqORAzIiaqO2QPyw&si=VGemP_4X2jqIBqY-
+
 Tools being used:
 - [Doomtools](https://github.com/MTrop/DoomTools)
 -- excellent suite of CLI based tools for doom that even comes with a gui
