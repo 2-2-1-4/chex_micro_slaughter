@@ -1,9 +1,11 @@
 #include <dsdhacked>
 #include <friendly>
 
-Thing 19
+Thing 19 : LostSoul
 {
 	Health 50
+
+-COUNTKILL
 
 	States
 	{
