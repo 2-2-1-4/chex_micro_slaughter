@@ -1,0 +1,12 @@
+Patch File for DeHackEd v3.0
+# Created with DECOHack v0.48.0 by Matt Tropiano
+# Note: Use the pound sign ('#') to start comment lines.
+
+Doom version = 2021
+Patch format = 6
+
+
+Thing 20 (Spiderdemon)
+Hit points = 1500
+Bits = 4194374
+
