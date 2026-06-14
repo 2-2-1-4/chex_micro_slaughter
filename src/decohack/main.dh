@@ -1,12 +1,17 @@
-/*****************************************************************************
- * DECOHack Patch File
- * Main
- ****************************************************************************/
-
 #include <dsdhacked>
 #include <friendly>
 
 // Your DECOHack code here ...
+#include "armored_bipedicus.dh"
+#include "baron.dh"
+#include "biped_comm.dh"
+#include "cyber.dh"
+#include "flembomination.dh"
+#include "flemine.dh"
+#include "flemoptis.dh"
+#include "larvile.dh"
+#include "quad.dh"
+
 thing 4 "commonus aggro"
 {
 	EdNum 3004

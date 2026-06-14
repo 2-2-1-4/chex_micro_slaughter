@@ -1,0 +1,8 @@
+#include <dsdhacked>
+#include <friendly>
+
+Thing SpiderMastermind
+{
+	Health 1500
+	+JUSTHIT
+}

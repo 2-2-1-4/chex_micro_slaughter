@@ -1,0 +1,49 @@
+#include <dsdhacked>
+#include <friendly>
+
+thing 14 "Flemoptis"
+{
+	EdNum 58
+	Health 75
+	PainChance 200
+
+	+FLOAT
+	+NOGRAVITY
+	+INFLOAT
+	-SHADOW
+
+	//$Angled
+	//$Category Monsters
+	//$Sprite CYCLA0
+
+	States
+	{
+	Spawn:
+		CYCL AB 10 A_Look
+		Loop
+	See:
+		CYCL AABBCCDD 2 A_Chase
+		Loop
+	Missile:
+		CYCL EF 8 A_FaceTarget
+		CYCL G 8 A_HeadAttack
+		CYCL G 7 A_HeadAttack
+		Goto See
+	Pain:
+		CYCL H 2
+		CYCL H 2 A_Pain
+		Goto See
+	Death:
+		CYCL I 8
+		CYCL J 8 A_Scream
+		CYCL K 4
+		CYCL L 4 A_Fall
+		CYCL M 4
+		CYCL N -1
+		Stop
+	Raise:
+		CYCL N 5
+		CYCL MLKJI 5
+		Goto See	
+	}
+}

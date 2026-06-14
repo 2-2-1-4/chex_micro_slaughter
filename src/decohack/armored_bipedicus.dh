@@ -1,0 +1,61 @@
+#include <dsdhacked>
+#include <friendly>
+
+Thing 151 : Thing MTF_REVENANT_ROCKET
+{
+   EdNum -1
+
+   Radius 6
+   Height 8
+   Speed 11
+   FastSpeed 22
+   Damage 4
+   +MISSILE
+   +FLOAT
+   +NOGRAVITY
+
+   SeeSound "FIRSHT"
+   DeathSound "FIRXPL"
+
+   Clear States
+   States
+   {
+   Spawn:
+    SP01 AB 2 Bright A_Tracer
+    Loop
+   Death:
+    SP02 A 8 Bright
+    SP02 B 6 Bright
+    SP02 C 4 Bright
+    Stop
+   }
+}
+
+Thing 8 : Thing MTF_REVENANT_ROCKET_TRAIL
+{
+  +NOBLOCKMAP
+  +NOGRAVITY
+  +FLOAT
+  -TELEPORT
+  
+  States
+  {   
+  Spawn:
+    PUFF ABABC 4
+    Stop
+  }
+}
+
+Thing 12
+{
+    states
+    {
+    Melee:
+      TROO EF 8 A_FaceTarget
+      TROO EF 6 A_SargAttack
+    Missile:
+       TROO EF 8 A_FaceTarget
+       TROO G 6 Bright A_MonsterProjectile(151, 0, 0, 0, 0)
+       Goto See
+    }
+}       

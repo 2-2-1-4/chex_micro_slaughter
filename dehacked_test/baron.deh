@@ -9,6 +9,7 @@ Patch format = 6
 Thing 16 (Baron of Hell)
 Close attack frame = 1100
 Far attack frame = 1103
+MBF21 Bits = 4104
 
 Frame 1100
 Sprite number = 42

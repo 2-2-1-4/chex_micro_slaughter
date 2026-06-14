@@ -1,0 +1,22 @@
+#include <dsdhacked>
+#include <friendly>
+
+thing LostSoul
+{
+    Health 50
+	-COUNTKILL
+
+	force output
+	
+    States
+    {
+    Death:
+        SKUL F 6 Bright 
+        SKUL G 6 Bright A_Scream
+        SKUL H 6 Bright A_RadiusDamage(50, 128)
+        SKUL I 6 Bright A_Fall
+        SKUL J 6 Bright
+        SKUL K 6 Bright
+        Stop
+    }
+}

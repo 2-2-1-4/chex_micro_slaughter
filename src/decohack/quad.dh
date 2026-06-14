@@ -1,0 +1,16 @@
+#include <dsdhacked>
+#include <friendly>
+
+Thing 9
+{
+	Health 500
+
+	States
+	{
+	Melee:
+  	Missile:
+    	QUAD EF 8 A_FaceTarget
+    	QUAD G 6 Bright A_BruisAttack
+    	Goto See
+    }
+}
