@@ -1,0 +1,21 @@
+#include <dsdhacked>
+#include <friendly>
+
+Thing 16
+{
+	States
+	{
+	Melee:
+		BOSS EF 8 A_FaceTarget
+		BOSS G 8 A_BruisAttack
+		Goto See
+	Missile:
+		BOSS EF 8 A_FaceTarget
+		BOSS G 8 A_CyberAttack
+		BOSS EF 8 A_FaceTarget
+		BOSS G 8 A_CyberAttack
+		BOSS EF 8 A_FaceTarget
+		BOSS G 8 A_CyberAttack
+		Goto See
+	}
+}
