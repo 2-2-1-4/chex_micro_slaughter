@@ -11,11 +11,11 @@ Thing 16
 		Goto See
 	Missile:
 		BOSS EF 8 A_FaceTarget
-		BOSS G 8 A_CyberAttack
+		BOSS G 8 Bright A_CyberAttack
 		BOSS EF 8 A_FaceTarget
-		BOSS G 8 A_CyberAttack
+		BOSS G 8 Bright A_CyberAttack
 		BOSS EF 8 A_FaceTarget
-		BOSS G 8 A_CyberAttack
+		BOSS G 8 Bright A_CyberAttack
 		Goto See
 	}
 }

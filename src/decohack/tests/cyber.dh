@@ -7,11 +7,11 @@ Thing Cyberdemon
 	{
 	Missile:
     	CYBR E 6 A_FaceTarget
-    	CYBR F 12 A_CyberAttack
+    	CYBR F 12 Bright A_CyberAttack
     	CYBR E 12 A_FaceTarget
-    	CYBR F 12 A_CyberAttack
+    	CYBR F 12 Bright A_CyberAttack
     	CYBR E 12 A_FaceTarget
-    	CYBR F 12 A_CyberAttack
+    	CYBR F 12 Bright A_CyberAttack
     	Goto See
 	}
 }

@@ -1,0 +1,39 @@
+Patch File for DeHackEd v3.0
+# Created with DECOHack v0.48.0 by Matt Tropiano
+# Note: Use the pound sign ('#') to start comment lines.
+
+Doom version = 2021
+Patch format = 6
+
+
+Thing 9 (Mancubus)
+Hit points = 500
+Close attack frame = 1100
+Far attack frame = 1100
+
+Frame 1100
+Sprite number = 245
+Sprite subnumber = 4
+Next frame = 1101
+Duration = 8
+
+Frame 1101
+Sprite number = 245
+Sprite subnumber = 5
+Next frame = 1102
+Duration = 8
+
+Frame 1102
+Sprite number = 245
+Sprite subnumber = 32774
+Next frame = 364
+Duration = 6
+
+[CODEPTR]
+FRAME 1100 = FaceTarget
+FRAME 1101 = FaceTarget
+FRAME 1102 = BruisAttack
+
+[SPRITES]
+245 = QUAD
+

@@ -42,7 +42,7 @@ Duration = 8
 
 Frame 1105
 Sprite number = 42
-Sprite subnumber = 6
+Sprite subnumber = 32774
 Next frame = 1106
 Duration = 8
 
@@ -60,7 +60,7 @@ Duration = 8
 
 Frame 1108
 Sprite number = 42
-Sprite subnumber = 6
+Sprite subnumber = 32774
 Next frame = 1109
 Duration = 8
 
@@ -78,7 +78,7 @@ Duration = 8
 
 Frame 1111
 Sprite number = 42
-Sprite subnumber = 6
+Sprite subnumber = 32774
 Next frame = 529
 Duration = 8
 

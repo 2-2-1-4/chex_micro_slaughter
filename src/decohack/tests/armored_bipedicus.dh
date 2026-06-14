@@ -55,7 +55,7 @@ Thing 12
       TROO EF 6 A_SargAttack
     Missile:
        TROO EF 8 A_FaceTarget
-       TROO G 6 A_MonsterProjectile(151, 0, 0, 0, 0)
+       TROO G 6 Bright A_MonsterProjectile(151, 0, 0, 0, 0)
        Goto See
     }
 }       

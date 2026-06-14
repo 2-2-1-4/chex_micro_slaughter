@@ -15,7 +15,7 @@ Thing 6
 	Melee:
 	Missile:
 		SPOS E 9 A_FaceTarget
-		SPOS F 7 A_TroopAttack
+		SPOS F 7 Bright A_TroopAttack
 		SPOS E 9
 		Goto See
 	Pain:
