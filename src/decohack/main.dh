@@ -4,7 +4,7 @@
 // Your DECOHack code here ...
 #include "armored_bipedicus.dh"
 #include "baron.dh"
-#include "biped_comm.dh"
+#include "biped_commalt.dh"
 #include "commag.dh"
 #include "cyber.dh"
 #include "flembomination.dh"
