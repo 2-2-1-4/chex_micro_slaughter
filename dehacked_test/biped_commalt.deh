@@ -1,0 +1,274 @@
+Patch File for DeHackEd v3.0
+# Created with DECOHack v0.48.0 by Matt Tropiano
+# Note: Use the pound sign ('#') to start comment lines.
+
+Doom version = 2021
+Patch format = 6
+
+
+Thing 6 (Flemoidus Bipedicus)
+Initial frame = 1100
+First moving frame = 1102
+Injury frame = 1118
+Close attack frame = 1110
+Far attack frame = 1112
+Death frame = 1120
+Exploding frame = 1125
+Respawn frame = 1134
+
+Thing 32 (Bipedicus Slimeball)
+Missile damage = 1
+
+Frame 1100
+Sprite number = 30
+Next frame = 1101
+Duration = 9
+
+Frame 1101
+Sprite number = 30
+Sprite subnumber = 1
+Next frame = 1100
+Duration = 9
+
+Frame 1102
+Sprite number = 30
+Next frame = 1103
+Duration = 3
+
+Frame 1103
+Sprite number = 30
+Next frame = 1104
+Duration = 3
+
+Frame 1104
+Sprite number = 30
+Sprite subnumber = 1
+Next frame = 1105
+Duration = 3
+
+Frame 1105
+Sprite number = 30
+Sprite subnumber = 1
+Next frame = 1106
+Duration = 3
+
+Frame 1106
+Sprite number = 30
+Sprite subnumber = 2
+Next frame = 1107
+Duration = 3
+
+Frame 1107
+Sprite number = 30
+Sprite subnumber = 2
+Next frame = 1108
+Duration = 3
+
+Frame 1108
+Sprite number = 30
+Sprite subnumber = 3
+Next frame = 1109
+Duration = 3
+
+Frame 1109
+Sprite number = 30
+Sprite subnumber = 3
+Next frame = 1102
+Duration = 3
+
+Frame 1110
+Sprite number = 30
+Sprite subnumber = 4
+Next frame = 1111
+Duration = 9
+
+Frame 1111
+Sprite number = 30
+Sprite subnumber = 32773
+Next frame = 1112
+Duration = 7
+
+Frame 1112
+Sprite number = 30
+Sprite subnumber = 4
+Next frame = 1113
+Duration = 9
+
+Frame 1113
+Sprite number = 30
+Sprite subnumber = 32773
+Next frame = 1114
+Duration = 7
+
+Frame 1114
+Sprite number = 30
+Sprite subnumber = 32773
+Next frame = 1115
+Duration = 4
+
+Frame 1115
+Sprite number = 30
+Sprite subnumber = 32773
+Next frame = 1116
+Duration = 4
+
+Frame 1116
+Sprite number = 30
+Sprite subnumber = 32773
+Next frame = 1117
+Duration = 4
+
+Frame 1117
+Sprite number = 30
+Sprite subnumber = 4
+Next frame = 1102
+Duration = 9
+
+Frame 1118
+Sprite number = 30
+Sprite subnumber = 6
+Next frame = 1119
+Duration = 3
+
+Frame 1119
+Sprite number = 30
+Sprite subnumber = 6
+Next frame = 1102
+Duration = 3
+
+Frame 1120
+Sprite number = 30
+Sprite subnumber = 7
+Next frame = 1121
+Duration = 5
+
+Frame 1121
+Sprite number = 30
+Sprite subnumber = 8
+Next frame = 1122
+Duration = 5
+
+Frame 1122
+Sprite number = 30
+Sprite subnumber = 9
+Next frame = 1123
+Duration = 5
+
+Frame 1123
+Sprite number = 30
+Sprite subnumber = 10
+Next frame = 1124
+Duration = 5
+
+Frame 1124
+Sprite number = 30
+Sprite subnumber = 11
+Next frame = 0
+
+Frame 1125
+Sprite number = 30
+Sprite subnumber = 12
+Next frame = 1126
+Duration = 5
+
+Frame 1126
+Sprite number = 30
+Sprite subnumber = 13
+Next frame = 1127
+Duration = 5
+
+Frame 1127
+Sprite number = 30
+Sprite subnumber = 14
+Next frame = 1128
+Duration = 5
+
+Frame 1128
+Sprite number = 30
+Sprite subnumber = 15
+Next frame = 1129
+Duration = 5
+
+Frame 1129
+Sprite number = 30
+Sprite subnumber = 16
+Next frame = 1130
+Duration = 5
+
+Frame 1130
+Sprite number = 30
+Sprite subnumber = 17
+Next frame = 1131
+Duration = 5
+
+Frame 1131
+Sprite number = 30
+Sprite subnumber = 18
+Next frame = 1132
+Duration = 5
+
+Frame 1132
+Sprite number = 30
+Sprite subnumber = 19
+Next frame = 1133
+Duration = 5
+
+Frame 1133
+Sprite number = 30
+Sprite subnumber = 20
+Next frame = 0
+
+Frame 1134
+Sprite number = 30
+Sprite subnumber = 11
+Next frame = 1135
+Duration = 5
+
+Frame 1135
+Sprite number = 30
+Sprite subnumber = 10
+Next frame = 1136
+Duration = 5
+
+Frame 1136
+Sprite number = 30
+Sprite subnumber = 9
+Next frame = 1137
+Duration = 5
+
+Frame 1137
+Sprite number = 30
+Sprite subnumber = 8
+Next frame = 1138
+Duration = 5
+
+Frame 1138
+Sprite number = 30
+Sprite subnumber = 7
+Next frame = 1102
+Duration = 5
+
+[CODEPTR]
+FRAME 1100 = Look
+FRAME 1101 = Look
+FRAME 1102 = Chase
+FRAME 1103 = Chase
+FRAME 1104 = Chase
+FRAME 1105 = Chase
+FRAME 1106 = Chase
+FRAME 1107 = Chase
+FRAME 1108 = Chase
+FRAME 1109 = Chase
+FRAME 1110 = FaceTarget
+FRAME 1111 = TroopAttack
+FRAME 1112 = FaceTarget
+FRAME 1113 = TroopAttack
+FRAME 1114 = TroopAttack
+FRAME 1115 = TroopAttack
+FRAME 1116 = TroopAttack
+FRAME 1119 = Pain
+FRAME 1121 = Scream
+FRAME 1122 = Fall
+FRAME 1126 = XScream
+FRAME 1127 = Fall
+

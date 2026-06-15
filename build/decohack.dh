@@ -1,16 +1,312 @@
-/*****************************************************************************
- * DECOHack Patch File
- * Main
- ****************************************************************************/
-
-#include <mbf21>
+#include <dsdhacked>
 #include <friendly>
 
 // Your DECOHack code here ...
-auto thing commonus_agro : thing 4 "commonus aggro"
+#include <dsdhacked>
+#include <friendly>
+
+Thing 151 : Thing MTF_REVENANT_ROCKET
 {
-	health 10
-	speed 21
+   EdNum -1
+
+   Radius 6
+   Height 8
+   Speed 11
+   FastSpeed 22
+   Damage 4
+   +MISSILE
+   +FLOAT
+   +NOGRAVITY
+
+   SeeSound "FIRSHT"
+   DeathSound "FIRXPL"
+
+   Clear States
+   States
+   {
+   Spawn:
+    SP01 AB 2 Bright A_Tracer
+    Loop
+   Death:
+    SP02 A 8 Bright
+    SP02 B 6 Bright
+    SP02 C 4 Bright
+    Stop
+   }
+}
+
+Thing 8 : Thing MTF_REVENANT_ROCKET_TRAIL
+{
+  +NOBLOCKMAP
+  +NOGRAVITY
+  +FLOAT
+  -TELEPORT
+  
+  States
+  {   
+  Spawn:
+    PUFF ABABC 4
+    Stop
+  }
+}
+
+Thing 12 "Armored Flemoidus Bipedicus"
+{
+    states
+    {
+    Melee:
+      TROO EF 8 A_FaceTarget
+      TROO EF 6 A_SargAttack
+    Missile:
+       TROO EF 8 A_FaceTarget
+       TROO G 6 Bright A_MonsterProjectile(151, 0, 0, 0, 0)
+       Goto See
+    }
+}       
+
+#include <dsdhacked>
+#include <friendly>
+
+Thing 16 "Flemoidus Maximus"
+{
+	+NORADIUSDMG
+	
+	States
+	{
+	Melee:
+		BOSS EF 8 A_FaceTarget
+		BOSS G 8 A_BruisAttack
+		Goto See
+	Missile:
+		BOSS EF 8 A_FaceTarget
+		BOSS G 8 Bright A_CyberAttack
+		BOSS EF 8 A_FaceTarget
+		BOSS G 8 Bright A_CyberAttack
+		BOSS EF 8 A_FaceTarget
+		BOSS G 8 Bright A_CyberAttack
+		Goto See
+	}
+}
+
+#include <dsdhacked>
+#include <friendly>
+
+Thing 6 "Flemoidus Bipedicus"
+{
+	Clear States
+	States
+	{
+	Spawn:
+		SPOS AB 9 A_Look
+		Loop
+	See:
+		SPOS AABBCCDD 3 A_Chase
+		Loop
+	Melee:
+	Missile:
+		SPOS E 9 A_FaceTarget
+		SPOS F 7 Bright A_TroopAttack
+		SPOS E 9
+		Goto See
+	Pain:
+		SPOS G 3
+		SPOS G 3 A_Pain
+		Goto See
+	Death:
+		SPOS H 5
+		SPOS I 5 A_Scream
+		SPOS J 5 A_Fall
+		SPOS K 5
+		SPOS L -1
+		Stop
+	XDeath:
+		SPOS M 5
+		SPOS N 5 A_XScream
+		SPOS O 5 A_Fall
+		SPOS PQRST 5
+		SPOS U -1
+		Stop
+	Raise:
+		SPOS L 5
+		SPOS KJIH 5
+		Goto See
+	}
+}
+
+#include <dsdhacked>
+#include <friendly>
+
+thing 4 "commonus aggro"
+{
+	EdNum 3004
+	Health 5
+	Speed 24
+	PainChance 5
+	Mass 100
+
+	+DROPOFF
+	+NOGRAVITY
+	
+	States
+	{
+	Melee:
+		POSS E 10 A_FaceTarget
+		POSS F 6 A_BruisAttack
+		POSS E 8
+		Goto See
+	}	
+}
+
+#include <dsdhacked>
+#include <friendly>
+
+Thing Cyberdemon "Lord Snotfolus"
+{
+	States
+	{
+	Missile:
+    	CYBR E 6 A_FaceTarget
+    	CYBR F 12 Bright A_CyberAttack
+    	CYBR E 12 A_FaceTarget
+    	CYBR F 12 Bright A_CyberAttack
+    	CYBR E 12 A_FaceTarget
+    	CYBR F 12 Bright A_CyberAttack
+    	Goto See
+	}
+}
+
+#include <dsdhacked>
+#include <friendly>
+
+Thing SpiderMastermind "Flembomination"
+{
+	Health 1500
+	+JUSTHIT
+}
+
+#include <dsdhacked>
+#include <friendly>
+
+thing LostSoul "Flem Mine"
+{
+    Health 50
+	-COUNTKILL
+
+	force output
+	
+    States
+    {
+    Death:
+        SKUL F 6 Bright 
+        SKUL G 6 Bright A_Scream
+        SKUL H 6 Bright A_RadiusDamage(50, 128)
+        SKUL I 6 Bright A_Fall
+        SKUL J 6 Bright
+        SKUL K 6 Bright
+        Stop
+    }
+}
+
+#include <dsdhacked>
+#include <friendly>
+
+thing 14 "Flemoptis"
+{
+	EdNum 58
+	Health 75
+	PainChance 200
+
+	+FLOAT
+	+NOGRAVITY
+	+INFLOAT
+	-SHADOW
+	
+	States
+	{
+	Spawn:
+		CYCL AB 10 A_Look
+		Loop
+	See:
+		CYCL AABBCCDD 2 A_Chase
+		Loop
+	Missile:
+		CYCL EF 8 A_FaceTarget
+		CYCL G 8 Bright A_HeadAttack
+		CYCL G 7 Bright A_HeadAttack
+		Goto See
+	Pain:
+		CYCL H 2
+		CYCL H 2 A_Pain
+		Goto See
+	Death:
+		CYCL I 8
+		CYCL J 8 A_Scream
+		CYCL K 4
+		CYCL L 4 A_Fall
+		CYCL M 4
+		CYCL N -1
+		Stop
+	Raise:
+		CYCL N 5
+		CYCL MLKJI 5
+		Goto See	
+	}
+}
+
+#include <dsdhacked>
+#include <friendly>
+
+Thing 21 "Larvile"
+{
+	+SHADOW
+
+	Clear States
+	States
+	{
+	Spawn:
+		LRVA AB 10 A_Look
+		Loop
+	See:
+		LRVA AABBAABB 2 A_Chase
+		Loop
+	Melee:
+		LRVA CD 8 A_FaceTarget
+		LRVA E 8 A_VileAttack
+		Goto See
+	Pain:
+		LRVA F 2
+		LRVA F 2 A_Pain
+		Goto See
+	Death:
+		LRVA G 8
+		LRVA H 8 A_Scream
+		LRVA I 4
+		LRVA J 4 A_Fall
+		LRVA K 4
+		LRVA L -1
+		Stop
+	Raise:
+		LRVA L 5
+		LRVA KJIHG 5
+		Goto See
+	}
+}
+
+#include <dsdhacked>
+#include <friendly>
+
+Thing 9 "Flemoidus Quadrumpus"
+{
+	Health 500
+
+	States
+	{
+	Melee:
+  	Missile:
+    	QUAD EF 8 A_FaceTarget
+    	QUAD G 6 Bright A_BruisAttack
+    	Goto See
+    }
 }
 
 
