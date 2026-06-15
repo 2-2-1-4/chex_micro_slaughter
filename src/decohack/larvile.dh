@@ -1,7 +1,7 @@
 #include <dsdhacked>
 #include <friendly>
 
-Thing 21
+Thing 21 "Larvile"
 {
 	+SHADOW
 

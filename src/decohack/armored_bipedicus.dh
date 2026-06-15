@@ -46,7 +46,7 @@ Thing 8 : Thing MTF_REVENANT_ROCKET_TRAIL
   }
 }
 
-Thing 12
+Thing 12 "Armored Flemoidus Bipedicus"
 {
     states
     {

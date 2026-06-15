@@ -1,7 +1,7 @@
 #include <dsdhacked>
 #include <friendly>
 
-thing LostSoul
+thing LostSoul "Flem Mine"
 {
     Health 50
 	-COUNTKILL

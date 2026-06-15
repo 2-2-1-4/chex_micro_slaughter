@@ -1,7 +1,7 @@
 #include <dsdhacked>
 #include <friendly>
 
-Thing 9
+Thing 9 "Flemoidus Quadrumpus"
 {
 	Health 500
 

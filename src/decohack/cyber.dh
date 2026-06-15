@@ -1,7 +1,7 @@
 #include <dsdhacked>
 #include <friendly>
 
-Thing Cyberdemon
+Thing Cyberdemon "Lord Snotfolus"
 {
 	States
 	{

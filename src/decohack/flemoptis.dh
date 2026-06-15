@@ -11,11 +11,7 @@ thing 14 "Flemoptis"
 	+NOGRAVITY
 	+INFLOAT
 	-SHADOW
-
-	//$Angled
-	//$Category Monsters
-	//$Sprite CYCLA0
-
+	
 	States
 	{
 	Spawn:
@@ -26,8 +22,8 @@ thing 14 "Flemoptis"
 		Loop
 	Missile:
 		CYCL EF 8 A_FaceTarget
-		CYCL G 8 A_HeadAttack
-		CYCL G 7 A_HeadAttack
+		CYCL G 8 Bright A_HeadAttack
+		CYCL G 7 Bright A_HeadAttack
 		Goto See
 	Pain:
 		CYCL H 2

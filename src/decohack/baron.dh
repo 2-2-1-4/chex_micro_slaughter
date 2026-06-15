@@ -1,7 +1,7 @@
 #include <dsdhacked>
 #include <friendly>
 
-Thing 16
+Thing 16 "Flemoidus Maximus"
 {
 	+NORADIUSDMG
 	

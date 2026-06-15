@@ -1,7 +1,7 @@
 #include <dsdhacked>
 #include <friendly>
 
-Thing SpiderMastermind
+Thing SpiderMastermind "Flembomination"
 {
 	Health 1500
 	+JUSTHIT

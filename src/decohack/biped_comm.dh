@@ -1,7 +1,7 @@
 #include <dsdhacked>
 #include <friendly>
 
-Thing 6
+Thing 6 "Flemoidus Bipedicus"
 {
 	Clear States
 	States

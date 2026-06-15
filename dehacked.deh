@@ -8,17 +8,14 @@ Patch format = 6
 
 Thing 4 (commonus aggro)
 ID # = 3004
-#$Editor angled = true
-#$Editor category = Monsters
-#$Editor sprite = POSSA0
 Hit points = 5
 Speed = 24
 Pain chance = 5
 Bits = 4195846
 Mass = 100
-Close attack frame = 1233
+Close attack frame = 1163
 
-Thing 6 (Revenant)
+Thing 6 (Flemoidus Bipedicus)
 Initial frame = 1129
 First moving frame = 1131
 Injury frame = 1142
@@ -32,35 +29,32 @@ Thing 8 (Fireball trail)
 Bits = -2147466736
 Initial frame = 1105
 
-Thing 9 (Mancubus)
+Thing 9 (Flemoidus Quadrumpus)
 Hit points = 500
-Close attack frame = 1230
-Far attack frame = 1230
+Close attack frame = 1233
+Far attack frame = 1233
 
-Thing 12 (Imp)
+Thing 12 (Armored Flemoidus Bipedicus)
 Close attack frame = 1110
 Far attack frame = 1114
 
 Thing 14 (Flemoptis)
-#$Editor angled = true
-#$Editor category = Monsters
-#$Editor sprite = CYCLA0
 Hit points = 75
 Pain chance = 200
 Bits = 6308358
-Initial frame = 1175
-First moving frame = 1177
-Injury frame = 1189
-Far attack frame = 1185
-Death frame = 1191
-Respawn frame = 1197
+Initial frame = 1178
+First moving frame = 1180
+Injury frame = 1192
+Far attack frame = 1188
+Death frame = 1194
+Respawn frame = 1200
 
-Thing 16 (Baron of Hell)
+Thing 16 (Flemoidus Maximus)
 Close attack frame = 1117
 Far attack frame = 1120
 MBF21 Bits = 4104
 
-Thing 19 (Lost Soul)
+Thing 19 (Flem Mine)
 ID # = 3006
 Hit points = 50
 Speed = 8
@@ -76,7 +70,7 @@ First moving frame = 587
 Injury frame = 593
 Close attack frame = 0
 Far attack frame = 589
-Death frame = 1169
+Death frame = 1172
 Exploding frame = 0
 Respawn frame = 0
 Alert sound = 0
@@ -93,22 +87,22 @@ Fast speed = -1
 Melee range = 4194304
 Rip sound = 0
 
-Thing 20 (Spiderdemon)
+Thing 20 (Flembomination)
 Hit points = 1500
 Bits = 4194374
 
-Thing 21 (Arachnotron)
+Thing 21 (Larvile)
 Bits = 4456454
-Initial frame = 1203
-First moving frame = 1205
-Injury frame = 1216
-Close attack frame = 1213
+Initial frame = 1206
+First moving frame = 1208
+Injury frame = 1219
+Close attack frame = 1216
 Far attack frame = 0
-Death frame = 1218
-Respawn frame = 1224
+Death frame = 1221
+Respawn frame = 1227
 
-Thing 22 (Cyberdemon)
-Far attack frame = 1163
+Thing 22 (Lord Snotfolus)
+Far attack frame = 1166
 
 Thing 151 (Revenant fireball)
 Hit points = 1000
@@ -502,273 +496,274 @@ Next frame = 1131
 Duration = 5
 
 Frame 1163
-Sprite number = 49
+Sprite number = 29
 Sprite subnumber = 4
 Next frame = 1164
-Duration = 6
+Duration = 10
 
 Frame 1164
-Sprite number = 49
-Sprite subnumber = 32773
+Sprite number = 29
+Sprite subnumber = 5
 Next frame = 1165
-Duration = 12
+Duration = 6
 
 Frame 1165
-Sprite number = 49
+Sprite number = 29
 Sprite subnumber = 4
-Next frame = 1166
-Duration = 12
+Next frame = 243
+Duration = 8
 
 Frame 1166
 Sprite number = 49
-Sprite subnumber = 32773
+Sprite subnumber = 4
 Next frame = 1167
-Duration = 12
+Duration = 6
 
 Frame 1167
 Sprite number = 49
-Sprite subnumber = 4
+Sprite subnumber = 32773
 Next frame = 1168
 Duration = 12
 
 Frame 1168
 Sprite number = 49
+Sprite subnumber = 4
+Next frame = 1169
+Duration = 12
+
+Frame 1169
+Sprite number = 49
+Sprite subnumber = 32773
+Next frame = 1170
+Duration = 12
+
+Frame 1170
+Sprite number = 49
+Sprite subnumber = 4
+Next frame = 1171
+Duration = 12
+
+Frame 1171
+Sprite number = 49
 Sprite subnumber = 32773
 Next frame = 676
 Duration = 12
 
-Frame 1169
-Sprite number = 44
-Sprite subnumber = 32773
-Next frame = 1170
-Duration = 6
-
-Frame 1170
-Sprite number = 44
-Sprite subnumber = 32774
-Next frame = 1171
-Duration = 6
-
-Frame 1171
-Sprite number = 44
-Sprite subnumber = 32775
-Next frame = 1172
-Duration = 6
-Args1 = 50
-Args2 = 128
-
 Frame 1172
 Sprite number = 44
-Sprite subnumber = 32776
+Sprite subnumber = 32773
 Next frame = 1173
 Duration = 6
 
 Frame 1173
 Sprite number = 44
-Sprite subnumber = 32777
+Sprite subnumber = 32774
 Next frame = 1174
 Duration = 6
 
 Frame 1174
 Sprite number = 44
+Sprite subnumber = 32775
+Next frame = 1175
+Duration = 6
+Args1 = 50
+Args2 = 128
+
+Frame 1175
+Sprite number = 44
+Sprite subnumber = 32776
+Next frame = 1176
+Duration = 6
+
+Frame 1176
+Sprite number = 44
+Sprite subnumber = 32777
+Next frame = 1177
+Duration = 6
+
+Frame 1177
+Sprite number = 44
 Sprite subnumber = 32778
 Next frame = 0
 Duration = 6
 
-Frame 1175
-Sprite number = 245
-Next frame = 1176
-Duration = 10
-
-Frame 1176
-Sprite number = 245
-Sprite subnumber = 1
-Next frame = 1175
-Duration = 10
-
-Frame 1177
-Sprite number = 245
-Next frame = 1178
-Duration = 2
-
 Frame 1178
 Sprite number = 245
 Next frame = 1179
-Duration = 2
+Duration = 10
 
 Frame 1179
 Sprite number = 245
 Sprite subnumber = 1
-Next frame = 1180
-Duration = 2
+Next frame = 1178
+Duration = 10
 
 Frame 1180
 Sprite number = 245
-Sprite subnumber = 1
 Next frame = 1181
 Duration = 2
 
 Frame 1181
 Sprite number = 245
-Sprite subnumber = 2
 Next frame = 1182
 Duration = 2
 
 Frame 1182
 Sprite number = 245
-Sprite subnumber = 2
+Sprite subnumber = 1
 Next frame = 1183
 Duration = 2
 
 Frame 1183
 Sprite number = 245
-Sprite subnumber = 3
+Sprite subnumber = 1
 Next frame = 1184
 Duration = 2
 
 Frame 1184
 Sprite number = 245
-Sprite subnumber = 3
-Next frame = 1177
+Sprite subnumber = 2
+Next frame = 1185
 Duration = 2
 
 Frame 1185
 Sprite number = 245
-Sprite subnumber = 4
+Sprite subnumber = 2
 Next frame = 1186
-Duration = 8
+Duration = 2
 
 Frame 1186
 Sprite number = 245
-Sprite subnumber = 5
+Sprite subnumber = 3
 Next frame = 1187
-Duration = 8
+Duration = 2
 
 Frame 1187
 Sprite number = 245
-Sprite subnumber = 6
-Next frame = 1188
-Duration = 8
+Sprite subnumber = 3
+Next frame = 1180
+Duration = 2
 
 Frame 1188
 Sprite number = 245
-Sprite subnumber = 6
-Next frame = 1177
-Duration = 7
+Sprite subnumber = 4
+Next frame = 1189
+Duration = 8
 
 Frame 1189
 Sprite number = 245
-Sprite subnumber = 7
+Sprite subnumber = 5
 Next frame = 1190
-Duration = 2
+Duration = 8
 
 Frame 1190
 Sprite number = 245
-Sprite subnumber = 7
-Next frame = 1177
-Duration = 2
+Sprite subnumber = 32774
+Next frame = 1191
+Duration = 8
 
 Frame 1191
 Sprite number = 245
-Sprite subnumber = 8
-Next frame = 1192
-Duration = 8
+Sprite subnumber = 32774
+Next frame = 1180
+Duration = 7
 
 Frame 1192
 Sprite number = 245
-Sprite subnumber = 9
+Sprite subnumber = 7
 Next frame = 1193
-Duration = 8
+Duration = 2
 
 Frame 1193
 Sprite number = 245
-Sprite subnumber = 10
-Next frame = 1194
-Duration = 4
+Sprite subnumber = 7
+Next frame = 1180
+Duration = 2
 
 Frame 1194
 Sprite number = 245
-Sprite subnumber = 11
+Sprite subnumber = 8
 Next frame = 1195
-Duration = 4
+Duration = 8
 
 Frame 1195
 Sprite number = 245
-Sprite subnumber = 12
+Sprite subnumber = 9
 Next frame = 1196
-Duration = 4
+Duration = 8
 
 Frame 1196
 Sprite number = 245
-Sprite subnumber = 13
-Next frame = 0
+Sprite subnumber = 10
+Next frame = 1197
+Duration = 4
 
 Frame 1197
 Sprite number = 245
-Sprite subnumber = 13
+Sprite subnumber = 11
 Next frame = 1198
-Duration = 5
+Duration = 4
 
 Frame 1198
 Sprite number = 245
 Sprite subnumber = 12
 Next frame = 1199
-Duration = 5
+Duration = 4
 
 Frame 1199
 Sprite number = 245
-Sprite subnumber = 11
-Next frame = 1200
-Duration = 5
+Sprite subnumber = 13
+Next frame = 0
 
 Frame 1200
 Sprite number = 245
-Sprite subnumber = 10
+Sprite subnumber = 13
 Next frame = 1201
 Duration = 5
 
 Frame 1201
 Sprite number = 245
-Sprite subnumber = 9
+Sprite subnumber = 12
 Next frame = 1202
 Duration = 5
 
 Frame 1202
 Sprite number = 245
-Sprite subnumber = 8
-Next frame = 1177
+Sprite subnumber = 11
+Next frame = 1203
 Duration = 5
 
 Frame 1203
-Sprite number = 246
+Sprite number = 245
+Sprite subnumber = 10
 Next frame = 1204
-Duration = 10
+Duration = 5
 
 Frame 1204
-Sprite number = 246
-Sprite subnumber = 1
-Next frame = 1203
-Duration = 10
+Sprite number = 245
+Sprite subnumber = 9
+Next frame = 1205
+Duration = 5
 
 Frame 1205
-Sprite number = 246
-Next frame = 1206
-Duration = 2
+Sprite number = 245
+Sprite subnumber = 8
+Next frame = 1180
+Duration = 5
 
 Frame 1206
 Sprite number = 246
 Next frame = 1207
-Duration = 2
+Duration = 10
 
 Frame 1207
 Sprite number = 246
 Sprite subnumber = 1
-Next frame = 1208
-Duration = 2
+Next frame = 1206
+Duration = 10
 
 Frame 1208
 Sprite number = 246
-Sprite subnumber = 1
 Next frame = 1209
 Duration = 2
 
@@ -779,6 +774,7 @@ Duration = 2
 
 Frame 1210
 Sprite number = 246
+Sprite subnumber = 1
 Next frame = 1211
 Duration = 2
 
@@ -790,146 +786,144 @@ Duration = 2
 
 Frame 1212
 Sprite number = 246
-Sprite subnumber = 1
-Next frame = 1205
+Next frame = 1213
 Duration = 2
 
 Frame 1213
 Sprite number = 246
-Sprite subnumber = 2
 Next frame = 1214
-Duration = 8
+Duration = 2
 
 Frame 1214
 Sprite number = 246
-Sprite subnumber = 3
+Sprite subnumber = 1
 Next frame = 1215
-Duration = 8
+Duration = 2
 
 Frame 1215
 Sprite number = 246
-Sprite subnumber = 4
-Next frame = 1205
-Duration = 8
+Sprite subnumber = 1
+Next frame = 1208
+Duration = 2
 
 Frame 1216
 Sprite number = 246
-Sprite subnumber = 5
+Sprite subnumber = 2
 Next frame = 1217
-Duration = 2
+Duration = 8
 
 Frame 1217
 Sprite number = 246
-Sprite subnumber = 5
-Next frame = 1205
-Duration = 2
+Sprite subnumber = 3
+Next frame = 1218
+Duration = 8
 
 Frame 1218
 Sprite number = 246
-Sprite subnumber = 6
-Next frame = 1219
+Sprite subnumber = 4
+Next frame = 1208
 Duration = 8
 
 Frame 1219
 Sprite number = 246
-Sprite subnumber = 7
+Sprite subnumber = 5
 Next frame = 1220
-Duration = 8
+Duration = 2
 
 Frame 1220
 Sprite number = 246
-Sprite subnumber = 8
-Next frame = 1221
-Duration = 4
+Sprite subnumber = 5
+Next frame = 1208
+Duration = 2
 
 Frame 1221
 Sprite number = 246
-Sprite subnumber = 9
+Sprite subnumber = 6
 Next frame = 1222
-Duration = 4
+Duration = 8
 
 Frame 1222
 Sprite number = 246
-Sprite subnumber = 10
+Sprite subnumber = 7
 Next frame = 1223
-Duration = 4
+Duration = 8
 
 Frame 1223
 Sprite number = 246
-Sprite subnumber = 11
-Next frame = 0
+Sprite subnumber = 8
+Next frame = 1224
+Duration = 4
 
 Frame 1224
 Sprite number = 246
-Sprite subnumber = 11
+Sprite subnumber = 9
 Next frame = 1225
-Duration = 5
+Duration = 4
 
 Frame 1225
 Sprite number = 246
 Sprite subnumber = 10
 Next frame = 1226
-Duration = 5
+Duration = 4
 
 Frame 1226
 Sprite number = 246
-Sprite subnumber = 9
-Next frame = 1227
-Duration = 5
+Sprite subnumber = 11
+Next frame = 0
 
 Frame 1227
 Sprite number = 246
-Sprite subnumber = 8
+Sprite subnumber = 11
 Next frame = 1228
 Duration = 5
 
 Frame 1228
 Sprite number = 246
-Sprite subnumber = 7
+Sprite subnumber = 10
 Next frame = 1229
 Duration = 5
 
 Frame 1229
 Sprite number = 246
-Sprite subnumber = 6
-Next frame = 1205
+Sprite subnumber = 9
+Next frame = 1230
 Duration = 5
 
 Frame 1230
-Sprite number = 247
-Sprite subnumber = 4
+Sprite number = 246
+Sprite subnumber = 8
 Next frame = 1231
-Duration = 8
+Duration = 5
 
 Frame 1231
-Sprite number = 247
-Sprite subnumber = 5
+Sprite number = 246
+Sprite subnumber = 7
 Next frame = 1232
-Duration = 8
+Duration = 5
 
 Frame 1232
+Sprite number = 246
+Sprite subnumber = 6
+Next frame = 1208
+Duration = 5
+
+Frame 1233
+Sprite number = 247
+Sprite subnumber = 4
+Next frame = 1234
+Duration = 8
+
+Frame 1234
+Sprite number = 247
+Sprite subnumber = 5
+Next frame = 1235
+Duration = 8
+
+Frame 1235
 Sprite number = 247
 Sprite subnumber = 32774
 Next frame = 364
 Duration = 6
-
-Frame 1233
-Sprite number = 29
-Sprite subnumber = 4
-Next frame = 1234
-Duration = 10
-
-Frame 1234
-Sprite number = 29
-Sprite subnumber = 5
-Next frame = 1235
-Duration = 6
-
-Frame 1235
-Sprite number = 29
-Sprite subnumber = 4
-Next frame = 243
-Duration = 8
 
 [CODEPTR]
 FRAME 1100 = Tracer
@@ -971,52 +965,52 @@ FRAME 1146 = Fall
 FRAME 1150 = XScream
 FRAME 1151 = Fall
 FRAME 1163 = FaceTarget
-FRAME 1164 = CyberAttack
-FRAME 1165 = FaceTarget
-FRAME 1166 = CyberAttack
-FRAME 1167 = FaceTarget
-FRAME 1168 = CyberAttack
-FRAME 1170 = Scream
-FRAME 1171 = RadiusDamage
-FRAME 1172 = Fall
-FRAME 1175 = Look
-FRAME 1176 = Look
-FRAME 1177 = Chase
-FRAME 1178 = Chase
-FRAME 1179 = Chase
+FRAME 1164 = BruisAttack
+FRAME 1166 = FaceTarget
+FRAME 1167 = CyberAttack
+FRAME 1168 = FaceTarget
+FRAME 1169 = CyberAttack
+FRAME 1170 = FaceTarget
+FRAME 1171 = CyberAttack
+FRAME 1173 = Scream
+FRAME 1174 = RadiusDamage
+FRAME 1175 = Fall
+FRAME 1178 = Look
+FRAME 1179 = Look
 FRAME 1180 = Chase
 FRAME 1181 = Chase
 FRAME 1182 = Chase
 FRAME 1183 = Chase
 FRAME 1184 = Chase
-FRAME 1185 = FaceTarget
-FRAME 1186 = FaceTarget
-FRAME 1187 = HeadAttack
-FRAME 1188 = HeadAttack
-FRAME 1190 = Pain
-FRAME 1192 = Scream
-FRAME 1194 = Fall
-FRAME 1203 = Look
-FRAME 1204 = Look
-FRAME 1205 = Chase
-FRAME 1206 = Chase
-FRAME 1207 = Chase
+FRAME 1185 = Chase
+FRAME 1186 = Chase
+FRAME 1187 = Chase
+FRAME 1188 = FaceTarget
+FRAME 1189 = FaceTarget
+FRAME 1190 = HeadAttack
+FRAME 1191 = HeadAttack
+FRAME 1193 = Pain
+FRAME 1195 = Scream
+FRAME 1197 = Fall
+FRAME 1206 = Look
+FRAME 1207 = Look
 FRAME 1208 = Chase
 FRAME 1209 = Chase
 FRAME 1210 = Chase
 FRAME 1211 = Chase
 FRAME 1212 = Chase
-FRAME 1213 = FaceTarget
-FRAME 1214 = FaceTarget
-FRAME 1215 = VileAttack
-FRAME 1217 = Pain
-FRAME 1219 = Scream
-FRAME 1221 = Fall
-FRAME 1230 = FaceTarget
-FRAME 1231 = FaceTarget
-FRAME 1232 = BruisAttack
+FRAME 1213 = Chase
+FRAME 1214 = Chase
+FRAME 1215 = Chase
+FRAME 1216 = FaceTarget
+FRAME 1217 = FaceTarget
+FRAME 1218 = VileAttack
+FRAME 1220 = Pain
+FRAME 1222 = Scream
+FRAME 1224 = Fall
 FRAME 1233 = FaceTarget
-FRAME 1234 = BruisAttack
+FRAME 1234 = FaceTarget
+FRAME 1235 = BruisAttack
 
 [SPRITES]
 245 = CYCL
