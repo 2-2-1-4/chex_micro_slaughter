@@ -5,7 +5,7 @@ thing 4 "commonus aggro"
 {
 	EdNum 3004
 	Health 5
-	Speed 24
+	Speed 20
 	PainChance 5
 	Mass 100
 
@@ -14,10 +14,37 @@ thing 4 "commonus aggro"
 	
 	States
 	{
+	Spawn:
+		POSS AB 5 A_Look
+		Loop
+	See:
+		POSS AABBCCDD 3 A_Chase
+		Loop
 	Melee:
-		POSS E 10 A_FaceTarget
-		POSS F 6 A_BruisAttack
-		POSS E 8
+		POSS E 5 A_FaceTarget
+		POSS F 5 A_BruisAttack
+		Goto See
+	Pain:
+		POSS G 3
+		POSS G 3 A_Pain
+		Goto See
+	Death:
+		POSS H 5
+		POSS I 5 A_Scream
+		POSS J 5 A_Fall
+		POSS K 5
+		POSS L -1
+		Stop
+	XDeath:
+		POSS M 5
+		POSS N 5 A_XScream
+		POSS O 5 A_Fall
+		POSS PQRST 5
+		POSS U -1
+		Stop
+	Raise:
+		POSS K 5
+		POSS JIH 5
 		Goto See
 	}	
 }

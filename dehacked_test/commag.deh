@@ -9,31 +9,221 @@ Patch format = 6
 Thing 4 (commonus aggro)
 ID # = 3004
 Hit points = 5
-Speed = 24
+Speed = 20
 Pain chance = 5
 Bits = 4195846
 Mass = 100
-Close attack frame = 1100
+Initial frame = 1100
+First moving frame = 1102
+Injury frame = 1112
+Close attack frame = 1110
+Death frame = 1114
+Exploding frame = 1119
+Respawn frame = 1128
 
 Frame 1100
 Sprite number = 29
-Sprite subnumber = 4
 Next frame = 1101
-Duration = 10
+Duration = 5
 
 Frame 1101
 Sprite number = 29
-Sprite subnumber = 5
-Next frame = 1102
-Duration = 6
+Sprite subnumber = 1
+Next frame = 1100
+Duration = 5
 
 Frame 1102
 Sprite number = 29
+Next frame = 1103
+Duration = 3
+
+Frame 1103
+Sprite number = 29
+Next frame = 1104
+Duration = 3
+
+Frame 1104
+Sprite number = 29
+Sprite subnumber = 1
+Next frame = 1105
+Duration = 3
+
+Frame 1105
+Sprite number = 29
+Sprite subnumber = 1
+Next frame = 1106
+Duration = 3
+
+Frame 1106
+Sprite number = 29
+Sprite subnumber = 2
+Next frame = 1107
+Duration = 3
+
+Frame 1107
+Sprite number = 29
+Sprite subnumber = 2
+Next frame = 1108
+Duration = 3
+
+Frame 1108
+Sprite number = 29
+Sprite subnumber = 3
+Next frame = 1109
+Duration = 3
+
+Frame 1109
+Sprite number = 29
+Sprite subnumber = 3
+Next frame = 1102
+Duration = 3
+
+Frame 1110
+Sprite number = 29
 Sprite subnumber = 4
-Next frame = 243
-Duration = 8
+Next frame = 1111
+Duration = 5
+
+Frame 1111
+Sprite number = 29
+Sprite subnumber = 5
+Next frame = 1102
+Duration = 5
+
+Frame 1112
+Sprite number = 29
+Sprite subnumber = 6
+Next frame = 1113
+Duration = 3
+
+Frame 1113
+Sprite number = 29
+Sprite subnumber = 6
+Next frame = 1102
+Duration = 3
+
+Frame 1114
+Sprite number = 29
+Sprite subnumber = 7
+Next frame = 1115
+Duration = 5
+
+Frame 1115
+Sprite number = 29
+Sprite subnumber = 8
+Next frame = 1116
+Duration = 5
+
+Frame 1116
+Sprite number = 29
+Sprite subnumber = 9
+Next frame = 1117
+Duration = 5
+
+Frame 1117
+Sprite number = 29
+Sprite subnumber = 10
+Next frame = 1118
+Duration = 5
+
+Frame 1118
+Sprite number = 29
+Sprite subnumber = 11
+Next frame = 0
+
+Frame 1119
+Sprite number = 29
+Sprite subnumber = 12
+Next frame = 1120
+Duration = 5
+
+Frame 1120
+Sprite number = 29
+Sprite subnumber = 13
+Next frame = 1121
+Duration = 5
+
+Frame 1121
+Sprite number = 29
+Sprite subnumber = 14
+Next frame = 1122
+Duration = 5
+
+Frame 1122
+Sprite number = 29
+Sprite subnumber = 15
+Next frame = 1123
+Duration = 5
+
+Frame 1123
+Sprite number = 29
+Sprite subnumber = 16
+Next frame = 1124
+Duration = 5
+
+Frame 1124
+Sprite number = 29
+Sprite subnumber = 17
+Next frame = 1125
+Duration = 5
+
+Frame 1125
+Sprite number = 29
+Sprite subnumber = 18
+Next frame = 1126
+Duration = 5
+
+Frame 1126
+Sprite number = 29
+Sprite subnumber = 19
+Next frame = 1127
+Duration = 5
+
+Frame 1127
+Sprite number = 29
+Sprite subnumber = 20
+Next frame = 0
+
+Frame 1128
+Sprite number = 29
+Sprite subnumber = 10
+Next frame = 1129
+Duration = 5
+
+Frame 1129
+Sprite number = 29
+Sprite subnumber = 9
+Next frame = 1130
+Duration = 5
+
+Frame 1130
+Sprite number = 29
+Sprite subnumber = 8
+Next frame = 1131
+Duration = 5
+
+Frame 1131
+Sprite number = 29
+Sprite subnumber = 7
+Next frame = 1102
+Duration = 5
 
 [CODEPTR]
-FRAME 1100 = FaceTarget
-FRAME 1101 = BruisAttack
+FRAME 1100 = Look
+FRAME 1101 = Look
+FRAME 1102 = Chase
+FRAME 1103 = Chase
+FRAME 1104 = Chase
+FRAME 1105 = Chase
+FRAME 1106 = Chase
+FRAME 1107 = Chase
+FRAME 1108 = Chase
+FRAME 1109 = Chase
+FRAME 1110 = FaceTarget
+FRAME 1111 = BruisAttack
+FRAME 1113 = Pain
+FRAME 1115 = Scream
+FRAME 1116 = Fall
+FRAME 1120 = XScream
+FRAME 1121 = Fall
 
