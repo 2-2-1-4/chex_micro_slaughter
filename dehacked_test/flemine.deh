@@ -6,79 +6,119 @@ Doom version = 2021
 Patch format = 6
 
 
-Thing 19 (Lost Soul)
-ID # = 3006
+Thing 19 (Flem Mine)
 Hit points = 50
-Speed = 8
-Width = 1048576
-Height = 3670016
-Missile damage = 3
-Reaction time = 8
-Pain chance = 256
-Bits = 16902
-Mass = 50
-Initial frame = 585
-First moving frame = 587
-Injury frame = 593
-Close attack frame = 0
-Far attack frame = 589
-Death frame = 1100
-Exploding frame = 0
-Respawn frame = 0
-Alert sound = 0
-Action sound = 77
-Attack sound = 51
-Pain sound = 26
-Death sound = 17
-Dropped item = -1
-MBF21 Bits = 64
-Infighting group = 0
-Projectile group = 0
-Splash group = 0
-Fast speed = -1
-Melee range = 4194304
-Rip sound = 0
+Initial frame = 1100
+First moving frame = 1102
+Injury frame = 1108
+Far attack frame = 1104
+Death frame = 1110
 
 Frame 1100
 Sprite number = 44
-Sprite subnumber = 32773
 Next frame = 1101
-Duration = 6
+Duration = 10
 
 Frame 1101
 Sprite number = 44
-Sprite subnumber = 32774
-Next frame = 1102
-Duration = 6
+Sprite subnumber = 1
+Next frame = 1100
+Duration = 10
 
 Frame 1102
 Sprite number = 44
-Sprite subnumber = 32775
 Next frame = 1103
 Duration = 6
-Args1 = 50
-Args2 = 128
 
 Frame 1103
 Sprite number = 44
-Sprite subnumber = 32776
-Next frame = 1104
+Sprite subnumber = 1
+Next frame = 1102
 Duration = 6
 
 Frame 1104
 Sprite number = 44
-Sprite subnumber = 32777
+Sprite subnumber = 2
 Next frame = 1105
-Duration = 6
+Duration = 10
 
 Frame 1105
+Sprite number = 44
+Sprite subnumber = 3
+Next frame = 1106
+Duration = 4
+
+Frame 1106
+Sprite number = 44
+Sprite subnumber = 2
+Next frame = 1107
+Duration = 4
+
+Frame 1107
+Sprite number = 44
+Sprite subnumber = 3
+Next frame = 1104
+Duration = 4
+
+Frame 1108
+Sprite number = 44
+Sprite subnumber = 4
+Next frame = 1109
+Duration = 3
+
+Frame 1109
+Sprite number = 44
+Sprite subnumber = 4
+Next frame = 1102
+Duration = 3
+
+Frame 1110
+Sprite number = 44
+Sprite subnumber = 32773
+Next frame = 1111
+Duration = 6
+
+Frame 1111
+Sprite number = 44
+Sprite subnumber = 32774
+Next frame = 1112
+Duration = 6
+
+Frame 1112
+Sprite number = 44
+Sprite subnumber = 32775
+Next frame = 1113
+Duration = 6
+Args1 = 50
+Args2 = 128
+
+Frame 1113
+Sprite number = 44
+Sprite subnumber = 32776
+Next frame = 1114
+Duration = 6
+
+Frame 1114
+Sprite number = 44
+Sprite subnumber = 32777
+Next frame = 1115
+Duration = 6
+
+Frame 1115
 Sprite number = 44
 Sprite subnumber = 32778
 Next frame = 0
 Duration = 6
 
 [CODEPTR]
-FRAME 1101 = Scream
-FRAME 1102 = RadiusDamage
-FRAME 1103 = Fall
+FRAME 1100 = Look
+FRAME 1101 = Look
+FRAME 1102 = Chase
+FRAME 1103 = Chase
+FRAME 1104 = FaceTarget
+FRAME 1105 = SkullAttack
+FRAME 1109 = Pain
+FRAME 1111 = Scream
+FRAME 1112 = RadiusDamage
+FRAME 1113 = Fall
 

@@ -1,0 +1,1287 @@
+Patch File for DeHackEd v3.0
+# Created with DECOHack v0.48.0 by Matt Tropiano
+# Note: Use the pound sign ('#') to start comment lines.
+
+Doom version = 2021
+Patch format = 6
+
+
+Thing 4 (commonus aggro)
+ID # = 3004
+Hit points = 5
+Speed = 20
+Pain chance = 5
+Bits = 4195846
+Mass = 100
+Initial frame = 1168
+First moving frame = 1170
+Injury frame = 1180
+Close attack frame = 1178
+Death frame = 1182
+Exploding frame = 1187
+Respawn frame = 1196
+
+Thing 6 (Flemoidus Bipedicus)
+Initial frame = 1129
+First moving frame = 1131
+Injury frame = 1147
+Close attack frame = 1139
+Far attack frame = 1141
+Death frame = 1149
+Exploding frame = 1154
+Respawn frame = 1163
+
+Thing 8 (Fireball trail)
+Bits = -2147466736
+Initial frame = 1105
+
+Thing 9 (Flemoidus Quadrumpus)
+Hit points = 500
+Close attack frame = 1277
+Far attack frame = 1277
+
+Thing 12 (Armored Flemoidus Bipedicus)
+Close attack frame = 1110
+Far attack frame = 1114
+
+Thing 14 (Flemoptis)
+Hit points = 75
+Pain chance = 200
+Bits = 6308358
+Initial frame = 1222
+First moving frame = 1224
+Injury frame = 1236
+Far attack frame = 1232
+Death frame = 1238
+Respawn frame = 1244
+
+Thing 16 (Flemoidus Maximus)
+Close attack frame = 1117
+Far attack frame = 1120
+MBF21 Bits = 4104
+
+Thing 19 (Flem Mine)
+Hit points = 50
+Initial frame = 1206
+First moving frame = 1208
+Injury frame = 1214
+Far attack frame = 1210
+Death frame = 1216
+
+Thing 20 (Flembomination)
+Hit points = 1500
+Bits = 4194374
+
+Thing 21 (Larvile)
+Bits = 4456454
+Initial frame = 1250
+First moving frame = 1252
+Injury frame = 1263
+Close attack frame = 1260
+Far attack frame = 0
+Death frame = 1265
+Respawn frame = 1271
+
+Thing 22 (Lord Snotfolus)
+Far attack frame = 1200
+
+Thing 32 (Bipedicus Slimeball)
+Missile damage = 1
+
+Thing 151 (Revenant fireball)
+Hit points = 1000
+Speed = 720896
+Width = 393216
+Height = 524288
+Missile damage = 4
+Reaction time = 8
+Bits = 83472
+Mass = 100
+Initial frame = 1100
+Death frame = 1102
+Alert sound = 16
+Death sound = 17
+Fast speed = 1441792
+
+Frame 1100
+Sprite number = 146
+Sprite subnumber = 32768
+Next frame = 1101
+Duration = 2
+
+Frame 1101
+Sprite number = 146
+Sprite subnumber = 32769
+Next frame = 1100
+Duration = 2
+
+Frame 1102
+Sprite number = 147
+Sprite subnumber = 32768
+Next frame = 1103
+Duration = 8
+
+Frame 1103
+Sprite number = 147
+Sprite subnumber = 32769
+Next frame = 1104
+Duration = 6
+
+Frame 1104
+Sprite number = 147
+Sprite subnumber = 32770
+Next frame = 0
+Duration = 4
+
+Frame 1105
+Sprite number = 17
+Next frame = 1106
+Duration = 4
+
+Frame 1106
+Sprite number = 17
+Sprite subnumber = 1
+Next frame = 1107
+Duration = 4
+
+Frame 1107
+Sprite number = 17
+Next frame = 1108
+Duration = 4
+
+Frame 1108
+Sprite number = 17
+Sprite subnumber = 1
+Next frame = 1109
+Duration = 4
+
+Frame 1109
+Sprite number = 17
+Sprite subnumber = 2
+Next frame = 0
+Duration = 4
+
+Frame 1110
+Sprite number = 0
+Sprite subnumber = 4
+Next frame = 1111
+Duration = 8
+
+Frame 1111
+Sprite number = 0
+Sprite subnumber = 5
+Next frame = 1112
+Duration = 8
+
+Frame 1112
+Sprite number = 0
+Sprite subnumber = 4
+Next frame = 1113
+Duration = 6
+
+Frame 1113
+Sprite number = 0
+Sprite subnumber = 5
+Next frame = 1114
+Duration = 6
+
+Frame 1114
+Sprite number = 0
+Sprite subnumber = 4
+Next frame = 1115
+Duration = 8
+
+Frame 1115
+Sprite number = 0
+Sprite subnumber = 5
+Next frame = 1116
+Duration = 8
+
+Frame 1116
+Sprite number = 0
+Sprite subnumber = 32774
+Next frame = 444
+Duration = 6
+Args1 = 151
+Args2 = 0
+Args3 = 0
+Args4 = 0
+Args5 = 0
+
+Frame 1117
+Sprite number = 42
+Sprite subnumber = 4
+Next frame = 1118
+Duration = 8
+
+Frame 1118
+Sprite number = 42
+Sprite subnumber = 5
+Next frame = 1119
+Duration = 8
+
+Frame 1119
+Sprite number = 42
+Sprite subnumber = 6
+Next frame = 529
+Duration = 8
+
+Frame 1120
+Sprite number = 42
+Sprite subnumber = 4
+Next frame = 1121
+Duration = 8
+
+Frame 1121
+Sprite number = 42
+Sprite subnumber = 5
+Next frame = 1122
+Duration = 8
+
+Frame 1122
+Sprite number = 42
+Sprite subnumber = 32774
+Next frame = 1123
+Duration = 8
+
+Frame 1123
+Sprite number = 42
+Sprite subnumber = 4
+Next frame = 1124
+Duration = 8
+
+Frame 1124
+Sprite number = 42
+Sprite subnumber = 5
+Next frame = 1125
+Duration = 8
+
+Frame 1125
+Sprite number = 42
+Sprite subnumber = 32774
+Next frame = 1126
+Duration = 8
+
+Frame 1126
+Sprite number = 42
+Sprite subnumber = 4
+Next frame = 1127
+Duration = 8
+
+Frame 1127
+Sprite number = 42
+Sprite subnumber = 5
+Next frame = 1128
+Duration = 8
+
+Frame 1128
+Sprite number = 42
+Sprite subnumber = 32774
+Next frame = 529
+Duration = 8
+
+Frame 1129
+Sprite number = 30
+Next frame = 1130
+Duration = 9
+
+Frame 1130
+Sprite number = 30
+Sprite subnumber = 1
+Next frame = 1129
+Duration = 9
+
+Frame 1131
+Sprite number = 30
+Next frame = 1132
+Duration = 3
+
+Frame 1132
+Sprite number = 30
+Next frame = 1133
+Duration = 3
+
+Frame 1133
+Sprite number = 30
+Sprite subnumber = 1
+Next frame = 1134
+Duration = 3
+
+Frame 1134
+Sprite number = 30
+Sprite subnumber = 1
+Next frame = 1135
+Duration = 3
+
+Frame 1135
+Sprite number = 30
+Sprite subnumber = 2
+Next frame = 1136
+Duration = 3
+
+Frame 1136
+Sprite number = 30
+Sprite subnumber = 2
+Next frame = 1137
+Duration = 3
+
+Frame 1137
+Sprite number = 30
+Sprite subnumber = 3
+Next frame = 1138
+Duration = 3
+
+Frame 1138
+Sprite number = 30
+Sprite subnumber = 3
+Next frame = 1131
+Duration = 3
+
+Frame 1139
+Sprite number = 30
+Sprite subnumber = 4
+Next frame = 1140
+Duration = 9
+
+Frame 1140
+Sprite number = 30
+Sprite subnumber = 32773
+Next frame = 1141
+Duration = 7
+
+Frame 1141
+Sprite number = 30
+Sprite subnumber = 4
+Next frame = 1142
+Duration = 9
+
+Frame 1142
+Sprite number = 30
+Sprite subnumber = 32773
+Next frame = 1143
+Duration = 7
+
+Frame 1143
+Sprite number = 30
+Sprite subnumber = 32773
+Next frame = 1144
+Duration = 4
+
+Frame 1144
+Sprite number = 30
+Sprite subnumber = 32773
+Next frame = 1145
+Duration = 4
+
+Frame 1145
+Sprite number = 30
+Sprite subnumber = 32773
+Next frame = 1146
+Duration = 4
+
+Frame 1146
+Sprite number = 30
+Sprite subnumber = 4
+Next frame = 1131
+Duration = 9
+
+Frame 1147
+Sprite number = 30
+Sprite subnumber = 6
+Next frame = 1148
+Duration = 3
+
+Frame 1148
+Sprite number = 30
+Sprite subnumber = 6
+Next frame = 1131
+Duration = 3
+
+Frame 1149
+Sprite number = 30
+Sprite subnumber = 7
+Next frame = 1150
+Duration = 5
+
+Frame 1150
+Sprite number = 30
+Sprite subnumber = 8
+Next frame = 1151
+Duration = 5
+
+Frame 1151
+Sprite number = 30
+Sprite subnumber = 9
+Next frame = 1152
+Duration = 5
+
+Frame 1152
+Sprite number = 30
+Sprite subnumber = 10
+Next frame = 1153
+Duration = 5
+
+Frame 1153
+Sprite number = 30
+Sprite subnumber = 11
+Next frame = 0
+
+Frame 1154
+Sprite number = 30
+Sprite subnumber = 12
+Next frame = 1155
+Duration = 5
+
+Frame 1155
+Sprite number = 30
+Sprite subnumber = 13
+Next frame = 1156
+Duration = 5
+
+Frame 1156
+Sprite number = 30
+Sprite subnumber = 14
+Next frame = 1157
+Duration = 5
+
+Frame 1157
+Sprite number = 30
+Sprite subnumber = 15
+Next frame = 1158
+Duration = 5
+
+Frame 1158
+Sprite number = 30
+Sprite subnumber = 16
+Next frame = 1159
+Duration = 5
+
+Frame 1159
+Sprite number = 30
+Sprite subnumber = 17
+Next frame = 1160
+Duration = 5
+
+Frame 1160
+Sprite number = 30
+Sprite subnumber = 18
+Next frame = 1161
+Duration = 5
+
+Frame 1161
+Sprite number = 30
+Sprite subnumber = 19
+Next frame = 1162
+Duration = 5
+
+Frame 1162
+Sprite number = 30
+Sprite subnumber = 20
+Next frame = 0
+
+Frame 1163
+Sprite number = 30
+Sprite subnumber = 11
+Next frame = 1164
+Duration = 5
+
+Frame 1164
+Sprite number = 30
+Sprite subnumber = 10
+Next frame = 1165
+Duration = 5
+
+Frame 1165
+Sprite number = 30
+Sprite subnumber = 9
+Next frame = 1166
+Duration = 5
+
+Frame 1166
+Sprite number = 30
+Sprite subnumber = 8
+Next frame = 1167
+Duration = 5
+
+Frame 1167
+Sprite number = 30
+Sprite subnumber = 7
+Next frame = 1131
+Duration = 5
+
+Frame 1168
+Sprite number = 29
+Next frame = 1169
+Duration = 5
+
+Frame 1169
+Sprite number = 29
+Sprite subnumber = 1
+Next frame = 1168
+Duration = 5
+
+Frame 1170
+Sprite number = 29
+Next frame = 1171
+Duration = 3
+
+Frame 1171
+Sprite number = 29
+Next frame = 1172
+Duration = 3
+
+Frame 1172
+Sprite number = 29
+Sprite subnumber = 1
+Next frame = 1173
+Duration = 3
+
+Frame 1173
+Sprite number = 29
+Sprite subnumber = 1
+Next frame = 1174
+Duration = 3
+
+Frame 1174
+Sprite number = 29
+Sprite subnumber = 2
+Next frame = 1175
+Duration = 3
+
+Frame 1175
+Sprite number = 29
+Sprite subnumber = 2
+Next frame = 1176
+Duration = 3
+
+Frame 1176
+Sprite number = 29
+Sprite subnumber = 3
+Next frame = 1177
+Duration = 3
+
+Frame 1177
+Sprite number = 29
+Sprite subnumber = 3
+Next frame = 1170
+Duration = 3
+
+Frame 1178
+Sprite number = 29
+Sprite subnumber = 4
+Next frame = 1179
+Duration = 5
+
+Frame 1179
+Sprite number = 29
+Sprite subnumber = 5
+Next frame = 1170
+Duration = 5
+
+Frame 1180
+Sprite number = 29
+Sprite subnumber = 6
+Next frame = 1181
+Duration = 3
+
+Frame 1181
+Sprite number = 29
+Sprite subnumber = 6
+Next frame = 1170
+Duration = 3
+
+Frame 1182
+Sprite number = 29
+Sprite subnumber = 7
+Next frame = 1183
+Duration = 5
+
+Frame 1183
+Sprite number = 29
+Sprite subnumber = 8
+Next frame = 1184
+Duration = 5
+
+Frame 1184
+Sprite number = 29
+Sprite subnumber = 9
+Next frame = 1185
+Duration = 5
+
+Frame 1185
+Sprite number = 29
+Sprite subnumber = 10
+Next frame = 1186
+Duration = 5
+
+Frame 1186
+Sprite number = 29
+Sprite subnumber = 11
+Next frame = 0
+
+Frame 1187
+Sprite number = 29
+Sprite subnumber = 12
+Next frame = 1188
+Duration = 5
+
+Frame 1188
+Sprite number = 29
+Sprite subnumber = 13
+Next frame = 1189
+Duration = 5
+
+Frame 1189
+Sprite number = 29
+Sprite subnumber = 14
+Next frame = 1190
+Duration = 5
+
+Frame 1190
+Sprite number = 29
+Sprite subnumber = 15
+Next frame = 1191
+Duration = 5
+
+Frame 1191
+Sprite number = 29
+Sprite subnumber = 16
+Next frame = 1192
+Duration = 5
+
+Frame 1192
+Sprite number = 29
+Sprite subnumber = 17
+Next frame = 1193
+Duration = 5
+
+Frame 1193
+Sprite number = 29
+Sprite subnumber = 18
+Next frame = 1194
+Duration = 5
+
+Frame 1194
+Sprite number = 29
+Sprite subnumber = 19
+Next frame = 1195
+Duration = 5
+
+Frame 1195
+Sprite number = 29
+Sprite subnumber = 20
+Next frame = 0
+
+Frame 1196
+Sprite number = 29
+Sprite subnumber = 10
+Next frame = 1197
+Duration = 5
+
+Frame 1197
+Sprite number = 29
+Sprite subnumber = 9
+Next frame = 1198
+Duration = 5
+
+Frame 1198
+Sprite number = 29
+Sprite subnumber = 8
+Next frame = 1199
+Duration = 5
+
+Frame 1199
+Sprite number = 29
+Sprite subnumber = 7
+Next frame = 1170
+Duration = 5
+
+Frame 1200
+Sprite number = 49
+Sprite subnumber = 4
+Next frame = 1201
+Duration = 6
+
+Frame 1201
+Sprite number = 49
+Sprite subnumber = 32773
+Next frame = 1202
+Duration = 12
+
+Frame 1202
+Sprite number = 49
+Sprite subnumber = 4
+Next frame = 1203
+Duration = 12
+
+Frame 1203
+Sprite number = 49
+Sprite subnumber = 32773
+Next frame = 1204
+Duration = 12
+
+Frame 1204
+Sprite number = 49
+Sprite subnumber = 4
+Next frame = 1205
+Duration = 12
+
+Frame 1205
+Sprite number = 49
+Sprite subnumber = 32773
+Next frame = 676
+Duration = 12
+
+Frame 1206
+Sprite number = 44
+Next frame = 1207
+Duration = 10
+
+Frame 1207
+Sprite number = 44
+Sprite subnumber = 1
+Next frame = 1206
+Duration = 10
+
+Frame 1208
+Sprite number = 44
+Next frame = 1209
+Duration = 6
+
+Frame 1209
+Sprite number = 44
+Sprite subnumber = 1
+Next frame = 1208
+Duration = 6
+
+Frame 1210
+Sprite number = 44
+Sprite subnumber = 2
+Next frame = 1211
+Duration = 10
+
+Frame 1211
+Sprite number = 44
+Sprite subnumber = 3
+Next frame = 1212
+Duration = 4
+
+Frame 1212
+Sprite number = 44
+Sprite subnumber = 2
+Next frame = 1213
+Duration = 4
+
+Frame 1213
+Sprite number = 44
+Sprite subnumber = 3
+Next frame = 1210
+Duration = 4
+
+Frame 1214
+Sprite number = 44
+Sprite subnumber = 4
+Next frame = 1215
+Duration = 3
+
+Frame 1215
+Sprite number = 44
+Sprite subnumber = 4
+Next frame = 1208
+Duration = 3
+
+Frame 1216
+Sprite number = 44
+Sprite subnumber = 32773
+Next frame = 1217
+Duration = 6
+
+Frame 1217
+Sprite number = 44
+Sprite subnumber = 32774
+Next frame = 1218
+Duration = 6
+
+Frame 1218
+Sprite number = 44
+Sprite subnumber = 32775
+Next frame = 1219
+Duration = 6
+Args1 = 50
+Args2 = 128
+
+Frame 1219
+Sprite number = 44
+Sprite subnumber = 32776
+Next frame = 1220
+Duration = 6
+
+Frame 1220
+Sprite number = 44
+Sprite subnumber = 32777
+Next frame = 1221
+Duration = 6
+
+Frame 1221
+Sprite number = 44
+Sprite subnumber = 32778
+Next frame = 0
+Duration = 6
+
+Frame 1222
+Sprite number = 245
+Next frame = 1223
+Duration = 10
+
+Frame 1223
+Sprite number = 245
+Sprite subnumber = 1
+Next frame = 1222
+Duration = 10
+
+Frame 1224
+Sprite number = 245
+Next frame = 1225
+Duration = 2
+
+Frame 1225
+Sprite number = 245
+Next frame = 1226
+Duration = 2
+
+Frame 1226
+Sprite number = 245
+Sprite subnumber = 1
+Next frame = 1227
+Duration = 2
+
+Frame 1227
+Sprite number = 245
+Sprite subnumber = 1
+Next frame = 1228
+Duration = 2
+
+Frame 1228
+Sprite number = 245
+Sprite subnumber = 2
+Next frame = 1229
+Duration = 2
+
+Frame 1229
+Sprite number = 245
+Sprite subnumber = 2
+Next frame = 1230
+Duration = 2
+
+Frame 1230
+Sprite number = 245
+Sprite subnumber = 3
+Next frame = 1231
+Duration = 2
+
+Frame 1231
+Sprite number = 245
+Sprite subnumber = 3
+Next frame = 1224
+Duration = 2
+
+Frame 1232
+Sprite number = 245
+Sprite subnumber = 4
+Next frame = 1233
+Duration = 8
+
+Frame 1233
+Sprite number = 245
+Sprite subnumber = 5
+Next frame = 1234
+Duration = 8
+
+Frame 1234
+Sprite number = 245
+Sprite subnumber = 32774
+Next frame = 1235
+Duration = 8
+
+Frame 1235
+Sprite number = 245
+Sprite subnumber = 32774
+Next frame = 1224
+Duration = 7
+
+Frame 1236
+Sprite number = 245
+Sprite subnumber = 7
+Next frame = 1237
+Duration = 2
+
+Frame 1237
+Sprite number = 245
+Sprite subnumber = 7
+Next frame = 1224
+Duration = 2
+
+Frame 1238
+Sprite number = 245
+Sprite subnumber = 8
+Next frame = 1239
+Duration = 8
+
+Frame 1239
+Sprite number = 245
+Sprite subnumber = 9
+Next frame = 1240
+Duration = 8
+
+Frame 1240
+Sprite number = 245
+Sprite subnumber = 10
+Next frame = 1241
+Duration = 4
+
+Frame 1241
+Sprite number = 245
+Sprite subnumber = 11
+Next frame = 1242
+Duration = 4
+
+Frame 1242
+Sprite number = 245
+Sprite subnumber = 12
+Next frame = 1243
+Duration = 4
+
+Frame 1243
+Sprite number = 245
+Sprite subnumber = 13
+Next frame = 0
+
+Frame 1244
+Sprite number = 245
+Sprite subnumber = 13
+Next frame = 1245
+Duration = 5
+
+Frame 1245
+Sprite number = 245
+Sprite subnumber = 12
+Next frame = 1246
+Duration = 5
+
+Frame 1246
+Sprite number = 245
+Sprite subnumber = 11
+Next frame = 1247
+Duration = 5
+
+Frame 1247
+Sprite number = 245
+Sprite subnumber = 10
+Next frame = 1248
+Duration = 5
+
+Frame 1248
+Sprite number = 245
+Sprite subnumber = 9
+Next frame = 1249
+Duration = 5
+
+Frame 1249
+Sprite number = 245
+Sprite subnumber = 8
+Next frame = 1224
+Duration = 5
+
+Frame 1250
+Sprite number = 246
+Next frame = 1251
+Duration = 10
+
+Frame 1251
+Sprite number = 246
+Sprite subnumber = 1
+Next frame = 1250
+Duration = 10
+
+Frame 1252
+Sprite number = 246
+Next frame = 1253
+Duration = 2
+
+Frame 1253
+Sprite number = 246
+Next frame = 1254
+Duration = 2
+
+Frame 1254
+Sprite number = 246
+Sprite subnumber = 1
+Next frame = 1255
+Duration = 2
+
+Frame 1255
+Sprite number = 246
+Sprite subnumber = 1
+Next frame = 1256
+Duration = 2
+
+Frame 1256
+Sprite number = 246
+Next frame = 1257
+Duration = 2
+
+Frame 1257
+Sprite number = 246
+Next frame = 1258
+Duration = 2
+
+Frame 1258
+Sprite number = 246
+Sprite subnumber = 1
+Next frame = 1259
+Duration = 2
+
+Frame 1259
+Sprite number = 246
+Sprite subnumber = 1
+Next frame = 1252
+Duration = 2
+
+Frame 1260
+Sprite number = 246
+Sprite subnumber = 2
+Next frame = 1261
+Duration = 8
+
+Frame 1261
+Sprite number = 246
+Sprite subnumber = 3
+Next frame = 1262
+Duration = 8
+
+Frame 1262
+Sprite number = 246
+Sprite subnumber = 4
+Next frame = 1252
+Duration = 8
+
+Frame 1263
+Sprite number = 246
+Sprite subnumber = 5
+Next frame = 1264
+Duration = 2
+
+Frame 1264
+Sprite number = 246
+Sprite subnumber = 5
+Next frame = 1252
+Duration = 2
+
+Frame 1265
+Sprite number = 246
+Sprite subnumber = 6
+Next frame = 1266
+Duration = 8
+
+Frame 1266
+Sprite number = 246
+Sprite subnumber = 7
+Next frame = 1267
+Duration = 8
+
+Frame 1267
+Sprite number = 246
+Sprite subnumber = 8
+Next frame = 1268
+Duration = 4
+
+Frame 1268
+Sprite number = 246
+Sprite subnumber = 9
+Next frame = 1269
+Duration = 4
+
+Frame 1269
+Sprite number = 246
+Sprite subnumber = 10
+Next frame = 1270
+Duration = 4
+
+Frame 1270
+Sprite number = 246
+Sprite subnumber = 11
+Next frame = 0
+
+Frame 1271
+Sprite number = 246
+Sprite subnumber = 11
+Next frame = 1272
+Duration = 5
+
+Frame 1272
+Sprite number = 246
+Sprite subnumber = 10
+Next frame = 1273
+Duration = 5
+
+Frame 1273
+Sprite number = 246
+Sprite subnumber = 9
+Next frame = 1274
+Duration = 5
+
+Frame 1274
+Sprite number = 246
+Sprite subnumber = 8
+Next frame = 1275
+Duration = 5
+
+Frame 1275
+Sprite number = 246
+Sprite subnumber = 7
+Next frame = 1276
+Duration = 5
+
+Frame 1276
+Sprite number = 246
+Sprite subnumber = 6
+Next frame = 1252
+Duration = 5
+
+Frame 1277
+Sprite number = 247
+Sprite subnumber = 4
+Next frame = 1278
+Duration = 8
+
+Frame 1278
+Sprite number = 247
+Sprite subnumber = 5
+Next frame = 1279
+Duration = 8
+
+Frame 1279
+Sprite number = 247
+Sprite subnumber = 32774
+Next frame = 364
+Duration = 6
+
+[CODEPTR]
+FRAME 1100 = Tracer
+FRAME 1101 = Tracer
+FRAME 1110 = FaceTarget
+FRAME 1111 = FaceTarget
+FRAME 1112 = SargAttack
+FRAME 1113 = SargAttack
+FRAME 1114 = FaceTarget
+FRAME 1115 = FaceTarget
+FRAME 1116 = MonsterProjectile
+FRAME 1117 = FaceTarget
+FRAME 1118 = FaceTarget
+FRAME 1119 = BruisAttack
+FRAME 1120 = FaceTarget
+FRAME 1121 = FaceTarget
+FRAME 1122 = CyberAttack
+FRAME 1123 = FaceTarget
+FRAME 1124 = FaceTarget
+FRAME 1125 = CyberAttack
+FRAME 1126 = FaceTarget
+FRAME 1127 = FaceTarget
+FRAME 1128 = CyberAttack
+FRAME 1129 = Look
+FRAME 1130 = Look
+FRAME 1131 = Chase
+FRAME 1132 = Chase
+FRAME 1133 = Chase
+FRAME 1134 = Chase
+FRAME 1135 = Chase
+FRAME 1136 = Chase
+FRAME 1137 = Chase
+FRAME 1138 = Chase
+FRAME 1139 = FaceTarget
+FRAME 1140 = TroopAttack
+FRAME 1141 = FaceTarget
+FRAME 1142 = TroopAttack
+FRAME 1143 = TroopAttack
+FRAME 1144 = TroopAttack
+FRAME 1145 = TroopAttack
+FRAME 1148 = Pain
+FRAME 1150 = Scream
+FRAME 1151 = Fall
+FRAME 1155 = XScream
+FRAME 1156 = Fall
+FRAME 1168 = Look
+FRAME 1169 = Look
+FRAME 1170 = Chase
+FRAME 1171 = Chase
+FRAME 1172 = Chase
+FRAME 1173 = Chase
+FRAME 1174 = Chase
+FRAME 1175 = Chase
+FRAME 1176 = Chase
+FRAME 1177 = Chase
+FRAME 1178 = FaceTarget
+FRAME 1179 = BruisAttack
+FRAME 1181 = Pain
+FRAME 1183 = Scream
+FRAME 1184 = Fall
+FRAME 1188 = XScream
+FRAME 1189 = Fall
+FRAME 1200 = FaceTarget
+FRAME 1201 = CyberAttack
+FRAME 1202 = FaceTarget
+FRAME 1203 = CyberAttack
+FRAME 1204 = FaceTarget
+FRAME 1205 = CyberAttack
+FRAME 1206 = Look
+FRAME 1207 = Look
+FRAME 1208 = Chase
+FRAME 1209 = Chase
+FRAME 1210 = FaceTarget
+FRAME 1211 = SkullAttack
+FRAME 1215 = Pain
+FRAME 1217 = Scream
+FRAME 1218 = RadiusDamage
+FRAME 1219 = Fall
+FRAME 1222 = Look
+FRAME 1223 = Look
+FRAME 1224 = Chase
+FRAME 1225 = Chase
+FRAME 1226 = Chase
+FRAME 1227 = Chase
+FRAME 1228 = Chase
+FRAME 1229 = Chase
+FRAME 1230 = Chase
+FRAME 1231 = Chase
+FRAME 1232 = FaceTarget
+FRAME 1233 = FaceTarget
+FRAME 1234 = HeadAttack
+FRAME 1235 = HeadAttack
+FRAME 1237 = Pain
+FRAME 1239 = Scream
+FRAME 1241 = Fall
+FRAME 1250 = Look
+FRAME 1251 = Look
+FRAME 1252 = Chase
+FRAME 1253 = Chase
+FRAME 1254 = Chase
+FRAME 1255 = Chase
+FRAME 1256 = Chase
+FRAME 1257 = Chase
+FRAME 1258 = Chase
+FRAME 1259 = Chase
+FRAME 1260 = FaceTarget
+FRAME 1261 = FaceTarget
+FRAME 1262 = VileAttack
+FRAME 1264 = Pain
+FRAME 1266 = Scream
+FRAME 1268 = Fall
+FRAME 1277 = FaceTarget
+FRAME 1278 = FaceTarget
+FRAME 1279 = BruisAttack
+
+[SPRITES]
+245 = CYCL
+246 = LRVA
+247 = QUAD
+

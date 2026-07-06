@@ -4,12 +4,24 @@
 thing LostSoul "Flem Mine"
 {
     Health 50
-	-COUNTKILL
-
-	force output
 	
     States
     {
+    Spawn:
+        SKUL AB 10 A_Look
+        Loop
+    See:
+        SKUL AB 6 A_Chase
+        Loop
+    Missile:
+        SKUL C 10 A_FaceTarget
+        SKUL D 4 A_SkullAttack
+        SKUL CD 4 
+        Goto Missile
+    Pain:
+        SKUL E 3 
+        SKUL E 3 A_Pain
+        Goto See
     Death:
         SKUL F 6 Bright 
         SKUL G 6 Bright A_Scream
