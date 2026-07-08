@@ -13,5 +13,14 @@ Thing Cyberdemon "Lord Snotfolus"
     	CYBR E 12 A_FaceTarget
     	CYBR F 12 Bright A_CyberAttack
     	Goto See
+    Death:
+		CYBR H 10
+		CYBR I 10 A_Scream
+		CYBR JKL 10
+		CYBR M 10 A_Fall
+		CYBR NO 10
+		CYBR P 30
+		CYBR P -1
+		Stop
 	}
 }

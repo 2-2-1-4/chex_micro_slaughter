@@ -6,8 +6,9 @@ Doom version = 2021
 Patch format = 6
 
 
-Thing 22 (Cyberdemon)
+Thing 22 (Lord Snotfolus)
 Far attack frame = 1100
+Death frame = 1106
 
 Frame 1100
 Sprite number = 49
@@ -45,6 +46,65 @@ Sprite subnumber = 32773
 Next frame = 676
 Duration = 12
 
+Frame 1106
+Sprite number = 49
+Sprite subnumber = 7
+Next frame = 1107
+Duration = 10
+
+Frame 1107
+Sprite number = 49
+Sprite subnumber = 8
+Next frame = 1108
+Duration = 10
+
+Frame 1108
+Sprite number = 49
+Sprite subnumber = 9
+Next frame = 1109
+Duration = 10
+
+Frame 1109
+Sprite number = 49
+Sprite subnumber = 10
+Next frame = 1110
+Duration = 10
+
+Frame 1110
+Sprite number = 49
+Sprite subnumber = 11
+Next frame = 1111
+Duration = 10
+
+Frame 1111
+Sprite number = 49
+Sprite subnumber = 12
+Next frame = 1112
+Duration = 10
+
+Frame 1112
+Sprite number = 49
+Sprite subnumber = 13
+Next frame = 1113
+Duration = 10
+
+Frame 1113
+Sprite number = 49
+Sprite subnumber = 14
+Next frame = 1114
+Duration = 10
+
+Frame 1114
+Sprite number = 49
+Sprite subnumber = 15
+Next frame = 1115
+Duration = 30
+
+Frame 1115
+Sprite number = 49
+Sprite subnumber = 15
+Next frame = 0
+
 [CODEPTR]
 FRAME 1100 = FaceTarget
 FRAME 1101 = CyberAttack
@@ -52,4 +112,6 @@ FRAME 1102 = FaceTarget
 FRAME 1103 = CyberAttack
 FRAME 1104 = FaceTarget
 FRAME 1105 = CyberAttack
+FRAME 1107 = Scream
+FRAME 1111 = Fall
 

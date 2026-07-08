@@ -7,7 +7,7 @@ maps
 	
 	MAP01
 	{
-		viewpositiony = -891.4646f;
+		viewpositiony = 357.1359f;
 		custombrightness = 196;
 		
 		testpostcommand
@@ -27,9 +27,9 @@ maps
 			stderriserror = true;
 			exitcodeiserror = true;
 		}
-		viewpositionx = -1.497742f;
+		viewpositionx = -221.4748f;
 		overridemiddletexture = false;
-		viewscale = 0.348115f;
+		viewscale = 0.588314f;
 		defaulttoptexture = "STONE2";
 		
 		testprecommand
