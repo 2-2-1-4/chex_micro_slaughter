@@ -1,9 +1,16 @@
 #include <dsdhacked>
 #include <friendly>
 
-thing LostSoul "Flem Mine"
+thing 152 : thing LostSoul "Flem Mine"
 {
+    EdNum 3006
     Health 50
+    clear flags
+    +SHOOTABLE
+    +SOLID
+    +NOGRAVITY
+    +FLOAT
+    -COUNTKILL
 	
     States
     {

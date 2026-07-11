@@ -6,13 +6,26 @@ Doom version = 2021
 Patch format = 6
 
 
-Thing 19 (Flem Mine)
+Thing 152 (Flem Mine)
+ID # = 3006
 Hit points = 50
+Speed = 8
+Width = 1048576
+Height = 3670016
+Missile damage = 3
+Reaction time = 8
+Pain chance = 256
+Bits = 16902
+Mass = 50
 Initial frame = 1100
 First moving frame = 1102
 Injury frame = 1108
 Far attack frame = 1104
 Death frame = 1110
+Action sound = 77
+Attack sound = 51
+Pain sound = 26
+Death sound = 17
 
 Frame 1100
 Sprite number = 44
